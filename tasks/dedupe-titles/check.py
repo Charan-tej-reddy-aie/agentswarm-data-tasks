@@ -40,6 +40,7 @@ cases = [
     (["alpha beta gamma", "alpha beta gamma delta", "other content"], []),
     (["   ", "!!!", "", "unrelated"], []),
     (["ＣＳＶ straße v１２", "csv STRASSE v99", "csv Straße v2!"], [[0, 1, 2]]),
+    (["Parse ١٢ CSV rows", "parse 99 csv rows", "parse १२ csv rows"], [[0, 1, 2]]),
     (["a_b-c", "C B A", "x y z", "z y x"], [[0, 1], [2, 3]]),
     ([], []), (["singleton title"], []),
 ]

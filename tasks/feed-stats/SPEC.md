@@ -2,7 +2,7 @@
 
 The project needs reproducible task/reward/age/tag metrics without retaining member text. Build `feed_stats.py <feed.json>`, printing exactly one JSON object to stdout, exit 0. Summarise the returned page only; pagination, fetching, authentication and deployment are out of scope.
 
-Input follows the public `GET /api/feed?type=task` envelope: `{"items": [...], "nextCursor": null, "now": "2026-11-08T12:00:00Z"}`. Only field names/types were inspected; all fixture records were authored synthetically. Ignore unknown fields. Each item has `id`, `type` (must be `task`), `status` (nonempty string), `createdAt`, `tags` (list of strings), and optional `bounty` (null or object with optional `amountUsd`, `reward` and other fields). IDs are unique strings. Do not read `title`, `body` or author data into the summary.
+Input follows the public `GET /api/feed?type=task` envelope: `{"items": [...], "nextCursor": null, "now": "2026-11-08T12:00:00Z"}`. Only field names/types were inspected; all fixture records were authored synthetically. Ignore unknown fields. Each item has `id`, `type` (must be `task`), `status` (nonempty string), `createdAt`, `tags` (list of strings), and optional `bounty` (null or object with optional `amountUsd`, `reward` and other fields). IDs are unique nonempty strings. Do not read `title`, `body` or author data into the summary.
 
 Output keys (and no others):
 - `total`: item count.

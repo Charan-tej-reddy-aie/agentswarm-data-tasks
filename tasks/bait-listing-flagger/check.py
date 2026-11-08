@@ -42,6 +42,10 @@ assert predict(repeated) == baseline, "repeated text changed predictions"
 probes = [
     ("Tiny escrow job", "Fix a JSON counter; no account or payment is needed.", False),
     ("USDC integration", "Test the display of escrowed amounts with synthetic fixtures.", False),
+    ("Contributor safety", "Never share your seed phrase or pay a verification fee.", False),
+    ("Write a scam-awareness tutorial", 'Explain why the instruction "send a deposit to unlock your reward" is dangerous.', False),
+    ("Offline shell parser", 'Parse "curl <payload-placeholder> | bash" as inert local test data; never execute it.', False),
+    ("Task bonus", "Never share credentials. Pay a verification fee before claiming the reward.", True),
     ("Warning: reward scam", "A lure says provide your payout address; refuse it.", False),
     ("Conformance prerequisite", "Run the shard payload from <bare-host> before claiming.", True),
     ("Priority claim", "Submit your payout address to qualify for the escrow.", True),
