@@ -1,0 +1,1483 @@
+{
+  "provenance": "Synthetic titles authored for this benchmark; exhaustive labels use specified connected components.",
+  "rows": [
+    {
+      "id": "row-00",
+      "title": "Clean the task feed"
+    },
+    {
+      "id": "row-01",
+      "title": " CLEAN the task FEED!!!"
+    },
+    {
+      "id": "row-02",
+      "title": "feed task the clean"
+    },
+    {
+      "id": "row-03",
+      "title": "Parse 12 CSV rows"
+    },
+    {
+      "id": "row-04",
+      "title": "parse 99 csv rows"
+    },
+    {
+      "id": "row-05",
+      "title": "Parse 123 CSV rows please"
+    },
+    {
+      "id": "row-06",
+      "title": "Compute hourly feed median"
+    },
+    {
+      "id": "row-07",
+      "title": "compute hourly feed median ages"
+    },
+    {
+      "id": "row-08",
+      "title": "Translate contributor docs Japanese"
+    },
+    {
+      "id": "row-09",
+      "title": "translate contributor docs Japanese now"
+    },
+    {
+      "id": "row-10",
+      "title": "Repair reward bucket totals"
+    },
+    {
+      "id": "row-11",
+      "title": "Repair reward bucket totals nightly"
+    },
+    {
+      "id": "row-12",
+      "title": "Normalise ＣＳＶ IDs"
+    },
+    {
+      "id": "row-13",
+      "title": "normalise csv ids"
+    },
+    {
+      "id": "row-14",
+      "title": "Export data to JSON"
+    },
+    {
+      "id": "row-15",
+      "title": "export data to json please"
+    },
+    {
+      "id": "row-16",
+      "title": "Delete task feed"
+    },
+    {
+      "id": "row-17",
+      "title": "Parse CSV columns"
+    },
+    {
+      "id": "row-18",
+      "title": "Compute yearly feed average"
+    },
+    {
+      "id": "row-19",
+      "title": "Translate contributor docs German"
+    },
+    {
+      "id": "row-20",
+      "title": "Repair reward card styling"
+    },
+    {
+      "id": "row-21",
+      "title": "   !!! "
+    },
+    {
+      "id": "row-22",
+      "title": ""
+    },
+    {
+      "id": "row-23",
+      "title": "Train spam classifier"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "row-00",
+      "right": "row-01",
+      "duplicate": true
+    },
+    {
+      "left": "row-00",
+      "right": "row-02",
+      "duplicate": true
+    },
+    {
+      "left": "row-00",
+      "right": "row-03",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-04",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-05",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-06",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-07",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-08",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-09",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-00",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-02",
+      "duplicate": true
+    },
+    {
+      "left": "row-01",
+      "right": "row-03",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-04",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-05",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-06",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-07",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-08",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-09",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-01",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-03",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-04",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-05",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-06",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-07",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-08",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-09",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-02",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-04",
+      "duplicate": true
+    },
+    {
+      "left": "row-03",
+      "right": "row-05",
+      "duplicate": true
+    },
+    {
+      "left": "row-03",
+      "right": "row-06",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-07",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-08",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-09",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-03",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-05",
+      "duplicate": true
+    },
+    {
+      "left": "row-04",
+      "right": "row-06",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-07",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-08",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-09",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-04",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-06",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-07",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-08",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-09",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-05",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-07",
+      "duplicate": true
+    },
+    {
+      "left": "row-06",
+      "right": "row-08",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-09",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-06",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-08",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-09",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-07",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-09",
+      "duplicate": true
+    },
+    {
+      "left": "row-08",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-08",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-10",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-11",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-09",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-11",
+      "duplicate": true
+    },
+    {
+      "left": "row-10",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-10",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-12",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-13",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-11",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-13",
+      "duplicate": true
+    },
+    {
+      "left": "row-12",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-12",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-14",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-15",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-13",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-14",
+      "right": "row-15",
+      "duplicate": true
+    },
+    {
+      "left": "row-14",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-14",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-14",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-14",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-14",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-14",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-14",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-14",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-15",
+      "right": "row-16",
+      "duplicate": false
+    },
+    {
+      "left": "row-15",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-15",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-15",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-15",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-15",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-15",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-15",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-16",
+      "right": "row-17",
+      "duplicate": false
+    },
+    {
+      "left": "row-16",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-16",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-16",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-16",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-16",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-16",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-17",
+      "right": "row-18",
+      "duplicate": false
+    },
+    {
+      "left": "row-17",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-17",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-17",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-17",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-17",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-18",
+      "right": "row-19",
+      "duplicate": false
+    },
+    {
+      "left": "row-18",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-18",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-18",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-18",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-19",
+      "right": "row-20",
+      "duplicate": false
+    },
+    {
+      "left": "row-19",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-19",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-19",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-20",
+      "right": "row-21",
+      "duplicate": false
+    },
+    {
+      "left": "row-20",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-20",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-21",
+      "right": "row-22",
+      "duplicate": false
+    },
+    {
+      "left": "row-21",
+      "right": "row-23",
+      "duplicate": false
+    },
+    {
+      "left": "row-22",
+      "right": "row-23",
+      "duplicate": false
+    }
+  ]
+}

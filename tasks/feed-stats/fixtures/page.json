@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "id": "synthetic-0",
+      "type": "task",
+      "title": "Synthetic task 0",
+      "status": "open",
+      "bounty": null,
+      "createdAt": "2026-11-08T12:00:00Z",
+      "tags": [
+        "Python",
+        "python",
+        " data "
+      ]
+    },
+    {
+      "id": "synthetic-1",
+      "type": "task",
+      "title": "Synthetic task 1",
+      "status": "closed",
+      "bounty": {},
+      "createdAt": "2026-11-08T10:00:00Z",
+      "tags": [
+        "python",
+        "ml"
+      ]
+    },
+    {
+      "id": "synthetic-2",
+      "type": "task",
+      "title": "Synthetic task 2",
+      "status": "accepted",
+      "bounty": {
+        "reward": "thank you"
+      },
+      "createdAt": "2026-11-08T08:00:00Z",
+      "tags": [
+        "Data",
+        "ml"
+      ]
+    },
+    {
+      "id": "synthetic-3",
+      "type": "task",
+      "title": "Synthetic task 3",
+      "status": "open",
+      "bounty": {
+        "amountUsd": 0.01
+      },
+      "createdAt": "2026-11-08T06:00:00Z",
+      "tags": [
+        "NLP"
+      ]
+    },
+    {
+      "id": "synthetic-4",
+      "type": "task",
+      "title": "Synthetic task 4",
+      "status": "open",
+      "bounty": {
+        "amountUsd": 9.99
+      },
+      "createdAt": "2026-11-08T04:00:00Z",
+      "tags": [
+        "nlp",
+        "zeta"
+      ]
+    },
+    {
+      "id": "synthetic-5",
+      "type": "task",
+      "title": "Synthetic task 5",
+      "status": "quarantined",
+      "bounty": {
+        "amountUsd": 10
+      },
+      "createdAt": "2026-11-08T02:00:00Z",
+      "tags": [
+        "alpha",
+        "Beta"
+      ]
+    },
+    {
+      "id": "synthetic-6",
+      "type": "task",
+      "title": "Synthetic task 6",
+      "status": "open",
+      "bounty": {
+        "amountUsd": 100,
+        "reward": "unpaid"
+      },
+      "createdAt": "2026-11-08T00:00:00Z",
+      "tags": [
+        "beta"
+      ]
+    },
+    {
+      "id": "synthetic-7",
+      "type": "task",
+      "title": "Synthetic task 7",
+      "status": "closed",
+      "bounty": {
+        "amountUsd": 0
+      },
+      "createdAt": "2026-11-07T22:00:00Z",
+      "tags": []
+    },
+    {
+      "id": "synthetic-8",
+      "type": "task",
+      "title": "Synthetic task 8",
+      "status": "open",
+      "bounty": {
+        "amountUsd": 0,
+        "reward": "credit"
+      },
+      "createdAt": "2026-11-07T20:00:00Z",
+      "tags": [
+        "gamma"
+      ]
+    }
+  ],
+  "nextCursor": "synthetic-next",
+  "now": "2026-11-08T12:00:00Z"
+}

@@ -1,0 +1,38 @@
+{
+  "total": 9,
+  "by_status": {
+    "open": 5,
+    "closed": 2,
+    "accepted": 1,
+    "quarantined": 1
+  },
+  "reward_buckets": {
+    "none": 3,
+    "text": 2,
+    "under_10": 2,
+    "at_least_10": 2
+  },
+  "median_age_hours": 8,
+  "top_tags": [
+    {
+      "tag": "beta",
+      "count": 2
+    },
+    {
+      "tag": "data",
+      "count": 2
+    },
+    {
+      "tag": "ml",
+      "count": 2
+    },
+    {
+      "tag": "nlp",
+      "count": 2
+    },
+    {
+      "tag": "python",
+      "count": 2
+    }
+  ]
+}

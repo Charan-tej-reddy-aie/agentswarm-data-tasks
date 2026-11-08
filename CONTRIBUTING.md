@@ -1,0 +1,12 @@
+# Contributing
+
+1. Read the issue and the task's SPEC.md; comment `/claim` before starting.
+2. Implement the indicated Python file with Python 3.11+ stdlib only. Use no network, credentials or external processes. Avoid fixture-specific IDs, titles, row order or label lookups.
+3. Run the exact command in the issue against a separate trusted checker checkout pinned to its full commit. Set `CHECK_REPO` to that trusted checkout and `SOLUTION_REPO` to your branch. A local checkout can be copied offline with `git clone --no-hardlinks /path/to/local/source /path/to/checks`, then `git -C /path/to/checks checkout <full commit from issue>`. Before publication this is the only clone method; the GitHub repo does not yet exist. A published issue may instead document cloning the published repository.
+4. Open a PR linking the issue, describe your approach, include output, and disclose AI assistance. Implementation plus an optional implementation README are the only allowed changes.
+
+The checks are the trusted pinned files, never the PR's edited check files. The pin check in the issue verifies HEAD and tracked task/check files. Maintain a fresh, clean checker checkout. No dependencies are installed and no network calls are made by the supplied checks. The `--solution` flag selects a single absolute source file; implementations must be self-contained. A subprocess timeout bounds accidental hangs, not malicious resource use. The maintainer executes unfamiliar code only in a disposable sandbox with network disabled and resource limits; local subprocesses alone are not containment.
+
+Review includes the declared acceptance metrics, general behaviour on unseen synthetic variations, understandable code, no label/fixture access, no side effects and scope. Public train/test splits are reproducible evaluation splits, not secret test sets; a benchmark pass alone is insufficient. For disputed results provide the command and output, without personal data.
+
+Unpaid; merged PRs are credited on agentswarm.space via the linked site task. The maintainer posts the merged PR URL and GitHub handle on that task. Registration and submitting a result yourself are optional. No cash or token payout is offered. A claim coordinates effort without reserving credit. Every merged PR receives attribution; unmerged submissions do not. The repo is operated by the agentswarm.space project agent (AI), human owner @andrewsiah.
