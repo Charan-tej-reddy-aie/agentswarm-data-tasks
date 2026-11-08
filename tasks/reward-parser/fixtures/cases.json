@@ -1,0 +1,506 @@
+[
+  {
+    "text": "$450 USDC",
+    "amount": "450",
+    "currency": "USDC",
+    "kind": "crypto"
+  },
+  {
+    "text": "14 XTR",
+    "amount": "14",
+    "currency": "XTR",
+    "kind": "points"
+  },
+  {
+    "text": "5 USD (test fixture)",
+    "amount": "5",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "1 USD gross of site balance",
+    "amount": "1",
+    "currency": "USD",
+    "kind": "site-balance"
+  },
+  {
+    "text": "€20",
+    "amount": "20",
+    "currency": "EUR",
+    "kind": "cash"
+  },
+  {
+    "text": "0.05 ETH",
+    "amount": "0.05",
+    "currency": "ETH",
+    "kind": "crypto"
+  },
+  {
+    "text": "$25",
+    "amount": "25",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "£12.50",
+    "amount": "12.50",
+    "currency": "GBP",
+    "kind": "cash"
+  },
+  {
+    "text": "USD 80",
+    "amount": "80",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "30 EUR",
+    "amount": "30",
+    "currency": "EUR",
+    "kind": "cash"
+  },
+  {
+    "text": "GBP 7.25",
+    "amount": "7.25",
+    "currency": "GBP",
+    "kind": "cash"
+  },
+  {
+    "text": "20 CAD",
+    "amount": "20",
+    "currency": "CAD",
+    "kind": "cash"
+  },
+  {
+    "text": "AUD 15",
+    "amount": "15",
+    "currency": "AUD",
+    "kind": "cash"
+  },
+  {
+    "text": "CHF 18",
+    "amount": "18",
+    "currency": "CHF",
+    "kind": "cash"
+  },
+  {
+    "text": "JPY 2000",
+    "amount": "2000",
+    "currency": "JPY",
+    "kind": "cash"
+  },
+  {
+    "text": "INR 75",
+    "amount": "75",
+    "currency": "INR",
+    "kind": "cash"
+  },
+  {
+    "text": "0.00020 BTC",
+    "amount": "0.00020",
+    "currency": "BTC",
+    "kind": "crypto"
+  },
+  {
+    "text": "USDT 12.75",
+    "amount": "12.75",
+    "currency": "USDT",
+    "kind": "crypto"
+  },
+  {
+    "text": "SOL 0.80",
+    "amount": "0.80",
+    "currency": "SOL",
+    "kind": "crypto"
+  },
+  {
+    "text": "50 points",
+    "amount": "50",
+    "currency": "POINTS",
+    "kind": "points"
+  },
+  {
+    "text": "points 6",
+    "amount": "6",
+    "currency": "POINTS",
+    "kind": "points"
+  },
+  {
+    "text": "10 credits",
+    "amount": "10",
+    "currency": "CREDITS",
+    "kind": "site-balance"
+  },
+  {
+    "text": "credits 5.5",
+    "amount": "5.5",
+    "currency": "CREDITS",
+    "kind": "site-balance"
+  },
+  {
+    "text": "€3 site balance",
+    "amount": "3",
+    "currency": "EUR",
+    "kind": "site-balance"
+  },
+  {
+    "text": "$6 (site balance)",
+    "amount": "6",
+    "currency": "USD",
+    "kind": "site-balance"
+  },
+  {
+    "text": "0 USD",
+    "amount": "0",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "$0.00",
+    "amount": "0.00",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "1,250.50 USD",
+    "amount": "1250.50",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "$2,000",
+    "amount": "2000",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": " reward: 12 usd ",
+    "amount": "12",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "Bounty: €15",
+    "amount": "15",
+    "currency": "EUR",
+    "kind": "cash"
+  },
+  {
+    "text": "up to 40 USDC",
+    "amount": "40",
+    "currency": "USDC",
+    "kind": "crypto"
+  },
+  {
+    "text": "~0.25 ETH",
+    "amount": "0.25",
+    "currency": "ETH",
+    "kind": "crypto"
+  },
+  {
+    "text": "approximately 100 points",
+    "amount": "100",
+    "currency": "POINTS",
+    "kind": "points"
+  },
+  {
+    "text": "$12 USD",
+    "amount": "12",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "€8 EUR",
+    "amount": "8",
+    "currency": "EUR",
+    "kind": "cash"
+  },
+  {
+    "text": "£8 GBP",
+    "amount": "8",
+    "currency": "GBP",
+    "kind": "cash"
+  },
+  {
+    "text": "usdc 22",
+    "amount": "22",
+    "currency": "USDC",
+    "kind": "crypto"
+  },
+  {
+    "text": "14 xtr",
+    "amount": "14",
+    "currency": "XTR",
+    "kind": "points"
+  },
+  {
+    "text": "5\nUSD",
+    "amount": "5",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "reward:\t£9",
+    "amount": "9",
+    "currency": "GBP",
+    "kind": "cash"
+  },
+  {
+    "text": "USD 10.10",
+    "amount": "10.10",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "  5   USD   (test fixture) ",
+    "amount": "5",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "1 USD gross of site balance (test fixture)",
+    "amount": "1",
+    "currency": "USD",
+    "kind": "site-balance"
+  },
+  {
+    "text": "5 USDC site balance",
+    "amount": "5",
+    "currency": "USDC",
+    "kind": "site-balance"
+  },
+  {
+    "text": "12345678901234567890.123456789 USD",
+    "amount": "12345678901234567890.123456789",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "0005.00 USD",
+    "amount": "5.00",
+    "currency": "USD",
+    "kind": "cash"
+  },
+  {
+    "text": "5.000 XTR",
+    "amount": "5.000",
+    "currency": "XTR",
+    "kind": "points"
+  },
+  {
+    "text": "Unpaid",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "unpaid",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "Reward: none",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "   ",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "TBD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "negotiable",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "credit only",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "thanks",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "50",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "5 XYZ",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "$5 EUR",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "€5 USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "1 ETH USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "5 USD + 2 ETH",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "5-10 USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "10 USD or 20 USDC",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "-5 USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "+5 USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "NaN USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "Infinity ETH",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "1e3 USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "1,25 USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "1.000,50 EUR",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": ".5 ETH",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "5. USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "$ 5.5.5",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "5 USD later 7",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "USD ١٢",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "５ USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "USD 12\u0000",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "unpaid 5 USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "5 USD (real reward)",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "500 rewards USD",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "5 USD per hour",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  },
+  {
+    "text": "CAD $5",
+    "amount": null,
+    "currency": null,
+    "kind": "unknown"
+  }
+]

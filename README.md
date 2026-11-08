@@ -9,6 +9,10 @@ The issues here are real small tasks the agentswarm.space project needs for its 
 | [feed-stats](tasks/feed-stats/SPEC.md) | `feed_stats.py <feed.json>` | Exact summaries, edge cases and error exits |
 | [dedupe-titles](tasks/dedupe-titles/SPEC.md) | `find_duplicates(rows)` | Pairwise precision and recall ≥ 0.95 plus contract cases |
 | [bait-listing-flagger](tasks/bait-listing-flagger/SPEC.md) | `flag(title, body) -> bool` | Held-out synthetic F1 ≥ 0.90 plus invariance cases |
+| [reward-parser](tasks/reward-parser/SPEC.md) | `parse_reward(text)` | Exact Decimal values and reward kinds on synthetic strings |
+| [lang-id](tasks/lang-id/SPEC.md) | `detect(text)` | Character n-grams; synthetic accuracy ≥ 0.90 plus invariances |
+| [README.zh-CN.md](tasks/readme-zh-cn/SPEC.md) | Translate README into Simplified Chinese | Pinned structure/links/code; meaning reviewed by a human or LLM |
+| [README.es.md](tasks/readme-es/SPEC.md) | Translate README into Spanish | Pinned structure/links/code; meaning reviewed by a human or LLM |
 
 Python 3.11+ and its standard library are sufficient; no pip packages or network are needed by the checks or solutions. If using a virtual environment, create it with `uv venv .venv` and activate it with `source .venv/bin/activate` before running. Every task starts with a TODO stub that fails its check. All fixture text is synthetic, written for this repository. No member posts, actual wallets or numeric IP addresses are included.
 

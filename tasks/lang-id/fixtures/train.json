@@ -1,0 +1,1538 @@
+[
+  {
+    "text": "Review the project instructions",
+    "language": "en"
+  },
+  {
+    "text": "Review the sample records",
+    "language": "en"
+  },
+  {
+    "text": "Review the table headings",
+    "language": "en"
+  },
+  {
+    "text": "Review the result summaries",
+    "language": "en"
+  },
+  {
+    "text": "Review the contribution guides",
+    "language": "en"
+  },
+  {
+    "text": "Review the error messages",
+    "language": "en"
+  },
+  {
+    "text": "Translate the task titles",
+    "language": "en"
+  },
+  {
+    "text": "Translate the project instructions",
+    "language": "en"
+  },
+  {
+    "text": "Translate the sample records",
+    "language": "en"
+  },
+  {
+    "text": "Translate the example files",
+    "language": "en"
+  },
+  {
+    "text": "Translate the result summaries",
+    "language": "en"
+  },
+  {
+    "text": "Translate the contribution guides",
+    "language": "en"
+  },
+  {
+    "text": "Update the task titles",
+    "language": "en"
+  },
+  {
+    "text": "Update the project instructions",
+    "language": "en"
+  },
+  {
+    "text": "Update the table headings",
+    "language": "en"
+  },
+  {
+    "text": "Update the example files",
+    "language": "en"
+  },
+  {
+    "text": "Update the result summaries",
+    "language": "en"
+  },
+  {
+    "text": "Update the error messages",
+    "language": "en"
+  },
+  {
+    "text": "Document the task titles",
+    "language": "en"
+  },
+  {
+    "text": "Document the sample records",
+    "language": "en"
+  },
+  {
+    "text": "Document the table headings",
+    "language": "en"
+  },
+  {
+    "text": "Document the example files",
+    "language": "en"
+  },
+  {
+    "text": "Document the contribution guides",
+    "language": "en"
+  },
+  {
+    "text": "Document the error messages",
+    "language": "en"
+  },
+  {
+    "text": "Validate the project instructions",
+    "language": "en"
+  },
+  {
+    "text": "Validate the sample records",
+    "language": "en"
+  },
+  {
+    "text": "Validate the table headings",
+    "language": "en"
+  },
+  {
+    "text": "Validate the result summaries",
+    "language": "en"
+  },
+  {
+    "text": "Validate the contribution guides",
+    "language": "en"
+  },
+  {
+    "text": "Validate the error messages",
+    "language": "en"
+  },
+  {
+    "text": "Check the task titles",
+    "language": "en"
+  },
+  {
+    "text": "Check the project instructions",
+    "language": "en"
+  },
+  {
+    "text": "Check the sample records",
+    "language": "en"
+  },
+  {
+    "text": "Check the example files",
+    "language": "en"
+  },
+  {
+    "text": "Check the result summaries",
+    "language": "en"
+  },
+  {
+    "text": "Check the contribution guides",
+    "language": "en"
+  },
+  {
+    "text": "Improve the task titles",
+    "language": "en"
+  },
+  {
+    "text": "Improve the project instructions",
+    "language": "en"
+  },
+  {
+    "text": "Improve the table headings",
+    "language": "en"
+  },
+  {
+    "text": "Improve the example files",
+    "language": "en"
+  },
+  {
+    "text": "Improve the result summaries",
+    "language": "en"
+  },
+  {
+    "text": "Improve the error messages",
+    "language": "en"
+  },
+  {
+    "text": "Compare the task titles",
+    "language": "en"
+  },
+  {
+    "text": "Compare the sample records",
+    "language": "en"
+  },
+  {
+    "text": "Compare the table headings",
+    "language": "en"
+  },
+  {
+    "text": "Compare the example files",
+    "language": "en"
+  },
+  {
+    "text": "Compare the contribution guides",
+    "language": "en"
+  },
+  {
+    "text": "Compare the error messages",
+    "language": "en"
+  },
+  {
+    "text": "Revisar los archivos del proyecto",
+    "language": "es"
+  },
+  {
+    "text": "Revisar los registros de ejemplo",
+    "language": "es"
+  },
+  {
+    "text": "Revisar los encabezados de tablas",
+    "language": "es"
+  },
+  {
+    "text": "Revisar los resúmenes de resultados",
+    "language": "es"
+  },
+  {
+    "text": "Revisar los manuales de contribución",
+    "language": "es"
+  },
+  {
+    "text": "Revisar los documentos de instalación",
+    "language": "es"
+  },
+  {
+    "text": "Traducir los títulos de tareas",
+    "language": "es"
+  },
+  {
+    "text": "Traducir los archivos del proyecto",
+    "language": "es"
+  },
+  {
+    "text": "Traducir los registros de ejemplo",
+    "language": "es"
+  },
+  {
+    "text": "Traducir los mensajes de error",
+    "language": "es"
+  },
+  {
+    "text": "Traducir los resúmenes de resultados",
+    "language": "es"
+  },
+  {
+    "text": "Traducir los manuales de contribución",
+    "language": "es"
+  },
+  {
+    "text": "Actualizar los títulos de tareas",
+    "language": "es"
+  },
+  {
+    "text": "Actualizar los archivos del proyecto",
+    "language": "es"
+  },
+  {
+    "text": "Actualizar los encabezados de tablas",
+    "language": "es"
+  },
+  {
+    "text": "Actualizar los mensajes de error",
+    "language": "es"
+  },
+  {
+    "text": "Actualizar los resúmenes de resultados",
+    "language": "es"
+  },
+  {
+    "text": "Actualizar los documentos de instalación",
+    "language": "es"
+  },
+  {
+    "text": "Documentar los títulos de tareas",
+    "language": "es"
+  },
+  {
+    "text": "Documentar los registros de ejemplo",
+    "language": "es"
+  },
+  {
+    "text": "Documentar los encabezados de tablas",
+    "language": "es"
+  },
+  {
+    "text": "Documentar los mensajes de error",
+    "language": "es"
+  },
+  {
+    "text": "Documentar los manuales de contribución",
+    "language": "es"
+  },
+  {
+    "text": "Documentar los documentos de instalación",
+    "language": "es"
+  },
+  {
+    "text": "Validar los archivos del proyecto",
+    "language": "es"
+  },
+  {
+    "text": "Validar los registros de ejemplo",
+    "language": "es"
+  },
+  {
+    "text": "Validar los encabezados de tablas",
+    "language": "es"
+  },
+  {
+    "text": "Validar los resúmenes de resultados",
+    "language": "es"
+  },
+  {
+    "text": "Validar los manuales de contribución",
+    "language": "es"
+  },
+  {
+    "text": "Validar los documentos de instalación",
+    "language": "es"
+  },
+  {
+    "text": "Comprobar los títulos de tareas",
+    "language": "es"
+  },
+  {
+    "text": "Comprobar los archivos del proyecto",
+    "language": "es"
+  },
+  {
+    "text": "Comprobar los registros de ejemplo",
+    "language": "es"
+  },
+  {
+    "text": "Comprobar los mensajes de error",
+    "language": "es"
+  },
+  {
+    "text": "Comprobar los resúmenes de resultados",
+    "language": "es"
+  },
+  {
+    "text": "Comprobar los manuales de contribución",
+    "language": "es"
+  },
+  {
+    "text": "Mejorar los títulos de tareas",
+    "language": "es"
+  },
+  {
+    "text": "Mejorar los archivos del proyecto",
+    "language": "es"
+  },
+  {
+    "text": "Mejorar los encabezados de tablas",
+    "language": "es"
+  },
+  {
+    "text": "Mejorar los mensajes de error",
+    "language": "es"
+  },
+  {
+    "text": "Mejorar los resúmenes de resultados",
+    "language": "es"
+  },
+  {
+    "text": "Mejorar los documentos de instalación",
+    "language": "es"
+  },
+  {
+    "text": "Comparar los títulos de tareas",
+    "language": "es"
+  },
+  {
+    "text": "Comparar los registros de ejemplo",
+    "language": "es"
+  },
+  {
+    "text": "Comparar los encabezados de tablas",
+    "language": "es"
+  },
+  {
+    "text": "Comparar los mensajes de error",
+    "language": "es"
+  },
+  {
+    "text": "Comparar los manuales de contribución",
+    "language": "es"
+  },
+  {
+    "text": "Comparar los documentos de instalación",
+    "language": "es"
+  },
+  {
+    "text": "Revisar os arquivos do projeto",
+    "language": "pt"
+  },
+  {
+    "text": "Revisar os registros de exemplo",
+    "language": "pt"
+  },
+  {
+    "text": "Revisar os cabeçalhos das tabelas",
+    "language": "pt"
+  },
+  {
+    "text": "Revisar os resumos dos resultados",
+    "language": "pt"
+  },
+  {
+    "text": "Revisar os guias de contribuição",
+    "language": "pt"
+  },
+  {
+    "text": "Revisar os documentos de instalação",
+    "language": "pt"
+  },
+  {
+    "text": "Traduzir os títulos das tarefas",
+    "language": "pt"
+  },
+  {
+    "text": "Traduzir os arquivos do projeto",
+    "language": "pt"
+  },
+  {
+    "text": "Traduzir os registros de exemplo",
+    "language": "pt"
+  },
+  {
+    "text": "Traduzir os avisos de erro",
+    "language": "pt"
+  },
+  {
+    "text": "Traduzir os resumos dos resultados",
+    "language": "pt"
+  },
+  {
+    "text": "Traduzir os guias de contribuição",
+    "language": "pt"
+  },
+  {
+    "text": "Atualizar os títulos das tarefas",
+    "language": "pt"
+  },
+  {
+    "text": "Atualizar os arquivos do projeto",
+    "language": "pt"
+  },
+  {
+    "text": "Atualizar os cabeçalhos das tabelas",
+    "language": "pt"
+  },
+  {
+    "text": "Atualizar os avisos de erro",
+    "language": "pt"
+  },
+  {
+    "text": "Atualizar os resumos dos resultados",
+    "language": "pt"
+  },
+  {
+    "text": "Atualizar os documentos de instalação",
+    "language": "pt"
+  },
+  {
+    "text": "Documentar os títulos das tarefas",
+    "language": "pt"
+  },
+  {
+    "text": "Documentar os registros de exemplo",
+    "language": "pt"
+  },
+  {
+    "text": "Documentar os cabeçalhos das tabelas",
+    "language": "pt"
+  },
+  {
+    "text": "Documentar os avisos de erro",
+    "language": "pt"
+  },
+  {
+    "text": "Documentar os guias de contribuição",
+    "language": "pt"
+  },
+  {
+    "text": "Documentar os documentos de instalação",
+    "language": "pt"
+  },
+  {
+    "text": "Validar os arquivos do projeto",
+    "language": "pt"
+  },
+  {
+    "text": "Validar os registros de exemplo",
+    "language": "pt"
+  },
+  {
+    "text": "Validar os cabeçalhos das tabelas",
+    "language": "pt"
+  },
+  {
+    "text": "Validar os resumos dos resultados",
+    "language": "pt"
+  },
+  {
+    "text": "Validar os guias de contribuição",
+    "language": "pt"
+  },
+  {
+    "text": "Validar os documentos de instalação",
+    "language": "pt"
+  },
+  {
+    "text": "Verificar os títulos das tarefas",
+    "language": "pt"
+  },
+  {
+    "text": "Verificar os arquivos do projeto",
+    "language": "pt"
+  },
+  {
+    "text": "Verificar os registros de exemplo",
+    "language": "pt"
+  },
+  {
+    "text": "Verificar os avisos de erro",
+    "language": "pt"
+  },
+  {
+    "text": "Verificar os resumos dos resultados",
+    "language": "pt"
+  },
+  {
+    "text": "Verificar os guias de contribuição",
+    "language": "pt"
+  },
+  {
+    "text": "Melhorar os títulos das tarefas",
+    "language": "pt"
+  },
+  {
+    "text": "Melhorar os arquivos do projeto",
+    "language": "pt"
+  },
+  {
+    "text": "Melhorar os cabeçalhos das tabelas",
+    "language": "pt"
+  },
+  {
+    "text": "Melhorar os avisos de erro",
+    "language": "pt"
+  },
+  {
+    "text": "Melhorar os resumos dos resultados",
+    "language": "pt"
+  },
+  {
+    "text": "Melhorar os documentos de instalação",
+    "language": "pt"
+  },
+  {
+    "text": "Comparar os títulos das tarefas",
+    "language": "pt"
+  },
+  {
+    "text": "Comparar os registros de exemplo",
+    "language": "pt"
+  },
+  {
+    "text": "Comparar os cabeçalhos das tabelas",
+    "language": "pt"
+  },
+  {
+    "text": "Comparar os avisos de erro",
+    "language": "pt"
+  },
+  {
+    "text": "Comparar os guias de contribuição",
+    "language": "pt"
+  },
+  {
+    "text": "Comparar os documentos de instalação",
+    "language": "pt"
+  },
+  {
+    "text": "Überprüfe die Projektanleitungen",
+    "language": "de"
+  },
+  {
+    "text": "Überprüfe die Beispieldatensätze",
+    "language": "de"
+  },
+  {
+    "text": "Überprüfe die Tabellenüberschriften",
+    "language": "de"
+  },
+  {
+    "text": "Überprüfe die Ergebnisübersichten",
+    "language": "de"
+  },
+  {
+    "text": "Überprüfe die Beitragsrichtlinien",
+    "language": "de"
+  },
+  {
+    "text": "Überprüfe die Fehlermeldungen",
+    "language": "de"
+  },
+  {
+    "text": "Übersetze die Aufgabentitel",
+    "language": "de"
+  },
+  {
+    "text": "Übersetze die Projektanleitungen",
+    "language": "de"
+  },
+  {
+    "text": "Übersetze die Beispieldatensätze",
+    "language": "de"
+  },
+  {
+    "text": "Übersetze die Beispieldateien",
+    "language": "de"
+  },
+  {
+    "text": "Übersetze die Ergebnisübersichten",
+    "language": "de"
+  },
+  {
+    "text": "Übersetze die Beitragsrichtlinien",
+    "language": "de"
+  },
+  {
+    "text": "Aktualisiere die Aufgabentitel",
+    "language": "de"
+  },
+  {
+    "text": "Aktualisiere die Projektanleitungen",
+    "language": "de"
+  },
+  {
+    "text": "Aktualisiere die Tabellenüberschriften",
+    "language": "de"
+  },
+  {
+    "text": "Aktualisiere die Beispieldateien",
+    "language": "de"
+  },
+  {
+    "text": "Aktualisiere die Ergebnisübersichten",
+    "language": "de"
+  },
+  {
+    "text": "Aktualisiere die Fehlermeldungen",
+    "language": "de"
+  },
+  {
+    "text": "Dokumentiere die Aufgabentitel",
+    "language": "de"
+  },
+  {
+    "text": "Dokumentiere die Beispieldatensätze",
+    "language": "de"
+  },
+  {
+    "text": "Dokumentiere die Tabellenüberschriften",
+    "language": "de"
+  },
+  {
+    "text": "Dokumentiere die Beispieldateien",
+    "language": "de"
+  },
+  {
+    "text": "Dokumentiere die Beitragsrichtlinien",
+    "language": "de"
+  },
+  {
+    "text": "Dokumentiere die Fehlermeldungen",
+    "language": "de"
+  },
+  {
+    "text": "Validiere die Projektanleitungen",
+    "language": "de"
+  },
+  {
+    "text": "Validiere die Beispieldatensätze",
+    "language": "de"
+  },
+  {
+    "text": "Validiere die Tabellenüberschriften",
+    "language": "de"
+  },
+  {
+    "text": "Validiere die Ergebnisübersichten",
+    "language": "de"
+  },
+  {
+    "text": "Validiere die Beitragsrichtlinien",
+    "language": "de"
+  },
+  {
+    "text": "Validiere die Fehlermeldungen",
+    "language": "de"
+  },
+  {
+    "text": "Kontrolliere die Aufgabentitel",
+    "language": "de"
+  },
+  {
+    "text": "Kontrolliere die Projektanleitungen",
+    "language": "de"
+  },
+  {
+    "text": "Kontrolliere die Beispieldatensätze",
+    "language": "de"
+  },
+  {
+    "text": "Kontrolliere die Beispieldateien",
+    "language": "de"
+  },
+  {
+    "text": "Kontrolliere die Ergebnisübersichten",
+    "language": "de"
+  },
+  {
+    "text": "Kontrolliere die Beitragsrichtlinien",
+    "language": "de"
+  },
+  {
+    "text": "Verbessere die Aufgabentitel",
+    "language": "de"
+  },
+  {
+    "text": "Verbessere die Projektanleitungen",
+    "language": "de"
+  },
+  {
+    "text": "Verbessere die Tabellenüberschriften",
+    "language": "de"
+  },
+  {
+    "text": "Verbessere die Beispieldateien",
+    "language": "de"
+  },
+  {
+    "text": "Verbessere die Ergebnisübersichten",
+    "language": "de"
+  },
+  {
+    "text": "Verbessere die Fehlermeldungen",
+    "language": "de"
+  },
+  {
+    "text": "Vergleiche die Aufgabentitel",
+    "language": "de"
+  },
+  {
+    "text": "Vergleiche die Beispieldatensätze",
+    "language": "de"
+  },
+  {
+    "text": "Vergleiche die Tabellenüberschriften",
+    "language": "de"
+  },
+  {
+    "text": "Vergleiche die Beispieldateien",
+    "language": "de"
+  },
+  {
+    "text": "Vergleiche die Beitragsrichtlinien",
+    "language": "de"
+  },
+  {
+    "text": "Vergleiche die Fehlermeldungen",
+    "language": "de"
+  },
+  {
+    "text": "Réviser les instructions du projet",
+    "language": "fr"
+  },
+  {
+    "text": "Réviser les enregistrements exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Réviser les en-têtes des tableaux",
+    "language": "fr"
+  },
+  {
+    "text": "Réviser les résumés des résultats",
+    "language": "fr"
+  },
+  {
+    "text": "Réviser les guides de contribution",
+    "language": "fr"
+  },
+  {
+    "text": "Réviser les messages des erreurs",
+    "language": "fr"
+  },
+  {
+    "text": "Traduire les titres des tâches",
+    "language": "fr"
+  },
+  {
+    "text": "Traduire les instructions du projet",
+    "language": "fr"
+  },
+  {
+    "text": "Traduire les enregistrements exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Traduire les fichiers exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Traduire les résumés des résultats",
+    "language": "fr"
+  },
+  {
+    "text": "Traduire les guides de contribution",
+    "language": "fr"
+  },
+  {
+    "text": "Actualiser les titres des tâches",
+    "language": "fr"
+  },
+  {
+    "text": "Actualiser les instructions du projet",
+    "language": "fr"
+  },
+  {
+    "text": "Actualiser les en-têtes des tableaux",
+    "language": "fr"
+  },
+  {
+    "text": "Actualiser les fichiers exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Actualiser les résumés des résultats",
+    "language": "fr"
+  },
+  {
+    "text": "Actualiser les messages des erreurs",
+    "language": "fr"
+  },
+  {
+    "text": "Documenter les titres des tâches",
+    "language": "fr"
+  },
+  {
+    "text": "Documenter les enregistrements exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Documenter les en-têtes des tableaux",
+    "language": "fr"
+  },
+  {
+    "text": "Documenter les fichiers exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Documenter les guides de contribution",
+    "language": "fr"
+  },
+  {
+    "text": "Documenter les messages des erreurs",
+    "language": "fr"
+  },
+  {
+    "text": "Valider les instructions du projet",
+    "language": "fr"
+  },
+  {
+    "text": "Valider les enregistrements exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Valider les en-têtes des tableaux",
+    "language": "fr"
+  },
+  {
+    "text": "Valider les résumés des résultats",
+    "language": "fr"
+  },
+  {
+    "text": "Valider les guides de contribution",
+    "language": "fr"
+  },
+  {
+    "text": "Valider les messages des erreurs",
+    "language": "fr"
+  },
+  {
+    "text": "Vérifier les titres des tâches",
+    "language": "fr"
+  },
+  {
+    "text": "Vérifier les instructions du projet",
+    "language": "fr"
+  },
+  {
+    "text": "Vérifier les enregistrements exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Vérifier les fichiers exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Vérifier les résumés des résultats",
+    "language": "fr"
+  },
+  {
+    "text": "Vérifier les guides de contribution",
+    "language": "fr"
+  },
+  {
+    "text": "Améliorer les titres des tâches",
+    "language": "fr"
+  },
+  {
+    "text": "Améliorer les instructions du projet",
+    "language": "fr"
+  },
+  {
+    "text": "Améliorer les en-têtes des tableaux",
+    "language": "fr"
+  },
+  {
+    "text": "Améliorer les fichiers exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Améliorer les résumés des résultats",
+    "language": "fr"
+  },
+  {
+    "text": "Améliorer les messages des erreurs",
+    "language": "fr"
+  },
+  {
+    "text": "Comparer les titres des tâches",
+    "language": "fr"
+  },
+  {
+    "text": "Comparer les enregistrements exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Comparer les en-têtes des tableaux",
+    "language": "fr"
+  },
+  {
+    "text": "Comparer les fichiers exemples",
+    "language": "fr"
+  },
+  {
+    "text": "Comparer les guides de contribution",
+    "language": "fr"
+  },
+  {
+    "text": "Comparer les messages des erreurs",
+    "language": "fr"
+  },
+  {
+    "text": "审查项目说明",
+    "language": "zh"
+  },
+  {
+    "text": "审查示例记录",
+    "language": "zh"
+  },
+  {
+    "text": "审查表格标题",
+    "language": "zh"
+  },
+  {
+    "text": "审查结果摘要",
+    "language": "zh"
+  },
+  {
+    "text": "审查贡献指南",
+    "language": "zh"
+  },
+  {
+    "text": "审查错误消息",
+    "language": "zh"
+  },
+  {
+    "text": "翻译任务标题",
+    "language": "zh"
+  },
+  {
+    "text": "翻译项目说明",
+    "language": "zh"
+  },
+  {
+    "text": "翻译示例记录",
+    "language": "zh"
+  },
+  {
+    "text": "翻译示例文件",
+    "language": "zh"
+  },
+  {
+    "text": "翻译结果摘要",
+    "language": "zh"
+  },
+  {
+    "text": "翻译贡献指南",
+    "language": "zh"
+  },
+  {
+    "text": "更新任务标题",
+    "language": "zh"
+  },
+  {
+    "text": "更新项目说明",
+    "language": "zh"
+  },
+  {
+    "text": "更新表格标题",
+    "language": "zh"
+  },
+  {
+    "text": "更新示例文件",
+    "language": "zh"
+  },
+  {
+    "text": "更新结果摘要",
+    "language": "zh"
+  },
+  {
+    "text": "更新错误消息",
+    "language": "zh"
+  },
+  {
+    "text": "编写任务标题",
+    "language": "zh"
+  },
+  {
+    "text": "编写示例记录",
+    "language": "zh"
+  },
+  {
+    "text": "编写表格标题",
+    "language": "zh"
+  },
+  {
+    "text": "编写示例文件",
+    "language": "zh"
+  },
+  {
+    "text": "编写贡献指南",
+    "language": "zh"
+  },
+  {
+    "text": "编写错误消息",
+    "language": "zh"
+  },
+  {
+    "text": "验证项目说明",
+    "language": "zh"
+  },
+  {
+    "text": "验证示例记录",
+    "language": "zh"
+  },
+  {
+    "text": "验证表格标题",
+    "language": "zh"
+  },
+  {
+    "text": "验证结果摘要",
+    "language": "zh"
+  },
+  {
+    "text": "验证贡献指南",
+    "language": "zh"
+  },
+  {
+    "text": "验证错误消息",
+    "language": "zh"
+  },
+  {
+    "text": "检查任务标题",
+    "language": "zh"
+  },
+  {
+    "text": "检查项目说明",
+    "language": "zh"
+  },
+  {
+    "text": "检查示例记录",
+    "language": "zh"
+  },
+  {
+    "text": "检查示例文件",
+    "language": "zh"
+  },
+  {
+    "text": "检查结果摘要",
+    "language": "zh"
+  },
+  {
+    "text": "检查贡献指南",
+    "language": "zh"
+  },
+  {
+    "text": "改进任务标题",
+    "language": "zh"
+  },
+  {
+    "text": "改进项目说明",
+    "language": "zh"
+  },
+  {
+    "text": "改进表格标题",
+    "language": "zh"
+  },
+  {
+    "text": "改进示例文件",
+    "language": "zh"
+  },
+  {
+    "text": "改进结果摘要",
+    "language": "zh"
+  },
+  {
+    "text": "改进错误消息",
+    "language": "zh"
+  },
+  {
+    "text": "比较任务标题",
+    "language": "zh"
+  },
+  {
+    "text": "比较示例记录",
+    "language": "zh"
+  },
+  {
+    "text": "比较表格标题",
+    "language": "zh"
+  },
+  {
+    "text": "比较示例文件",
+    "language": "zh"
+  },
+  {
+    "text": "比较贡献指南",
+    "language": "zh"
+  },
+  {
+    "text": "比较错误消息",
+    "language": "zh"
+  },
+  {
+    "text": "プロジェクトの説明をレビューする",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルの記録をレビューする",
+    "language": "ja"
+  },
+  {
+    "text": "テーブルの見出しをレビューする",
+    "language": "ja"
+  },
+  {
+    "text": "結果の要約をレビューする",
+    "language": "ja"
+  },
+  {
+    "text": "貢献のガイドをレビューする",
+    "language": "ja"
+  },
+  {
+    "text": "エラーのメッセージをレビューする",
+    "language": "ja"
+  },
+  {
+    "text": "タスクのタイトルを翻訳する",
+    "language": "ja"
+  },
+  {
+    "text": "プロジェクトの説明を翻訳する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルの記録を翻訳する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルのファイルを翻訳する",
+    "language": "ja"
+  },
+  {
+    "text": "結果の要約を翻訳する",
+    "language": "ja"
+  },
+  {
+    "text": "貢献のガイドを翻訳する",
+    "language": "ja"
+  },
+  {
+    "text": "タスクのタイトルを更新する",
+    "language": "ja"
+  },
+  {
+    "text": "プロジェクトの説明を更新する",
+    "language": "ja"
+  },
+  {
+    "text": "テーブルの見出しを更新する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルのファイルを更新する",
+    "language": "ja"
+  },
+  {
+    "text": "結果の要約を更新する",
+    "language": "ja"
+  },
+  {
+    "text": "エラーのメッセージを更新する",
+    "language": "ja"
+  },
+  {
+    "text": "タスクのタイトルを文書化する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルの記録を文書化する",
+    "language": "ja"
+  },
+  {
+    "text": "テーブルの見出しを文書化する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルのファイルを文書化する",
+    "language": "ja"
+  },
+  {
+    "text": "貢献のガイドを文書化する",
+    "language": "ja"
+  },
+  {
+    "text": "エラーのメッセージを文書化する",
+    "language": "ja"
+  },
+  {
+    "text": "プロジェクトの説明を検証する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルの記録を検証する",
+    "language": "ja"
+  },
+  {
+    "text": "テーブルの見出しを検証する",
+    "language": "ja"
+  },
+  {
+    "text": "結果の要約を検証する",
+    "language": "ja"
+  },
+  {
+    "text": "貢献のガイドを検証する",
+    "language": "ja"
+  },
+  {
+    "text": "エラーのメッセージを検証する",
+    "language": "ja"
+  },
+  {
+    "text": "タスクのタイトルを確認する",
+    "language": "ja"
+  },
+  {
+    "text": "プロジェクトの説明を確認する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルの記録を確認する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルのファイルを確認する",
+    "language": "ja"
+  },
+  {
+    "text": "結果の要約を確認する",
+    "language": "ja"
+  },
+  {
+    "text": "貢献のガイドを確認する",
+    "language": "ja"
+  },
+  {
+    "text": "タスクのタイトルを改善する",
+    "language": "ja"
+  },
+  {
+    "text": "プロジェクトの説明を改善する",
+    "language": "ja"
+  },
+  {
+    "text": "テーブルの見出しを改善する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルのファイルを改善する",
+    "language": "ja"
+  },
+  {
+    "text": "結果の要約を改善する",
+    "language": "ja"
+  },
+  {
+    "text": "エラーのメッセージを改善する",
+    "language": "ja"
+  },
+  {
+    "text": "タスクのタイトルを比較する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルの記録を比較する",
+    "language": "ja"
+  },
+  {
+    "text": "テーブルの見出しを比較する",
+    "language": "ja"
+  },
+  {
+    "text": "サンプルのファイルを比較する",
+    "language": "ja"
+  },
+  {
+    "text": "貢献のガイドを比較する",
+    "language": "ja"
+  },
+  {
+    "text": "エラーのメッセージを比較する",
+    "language": "ja"
+  },
+  {
+    "text": "프로젝트 설명 검토하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 기록 검토하기",
+    "language": "ko"
+  },
+  {
+    "text": "표 제목 검토하기",
+    "language": "ko"
+  },
+  {
+    "text": "결과 요약 검토하기",
+    "language": "ko"
+  },
+  {
+    "text": "기여 지침 검토하기",
+    "language": "ko"
+  },
+  {
+    "text": "오류 메시지 검토하기",
+    "language": "ko"
+  },
+  {
+    "text": "작업 제목 번역하기",
+    "language": "ko"
+  },
+  {
+    "text": "프로젝트 설명 번역하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 기록 번역하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 파일 번역하기",
+    "language": "ko"
+  },
+  {
+    "text": "결과 요약 번역하기",
+    "language": "ko"
+  },
+  {
+    "text": "기여 지침 번역하기",
+    "language": "ko"
+  },
+  {
+    "text": "작업 제목 업데이트하기",
+    "language": "ko"
+  },
+  {
+    "text": "프로젝트 설명 업데이트하기",
+    "language": "ko"
+  },
+  {
+    "text": "표 제목 업데이트하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 파일 업데이트하기",
+    "language": "ko"
+  },
+  {
+    "text": "결과 요약 업데이트하기",
+    "language": "ko"
+  },
+  {
+    "text": "오류 메시지 업데이트하기",
+    "language": "ko"
+  },
+  {
+    "text": "작업 제목 문서화하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 기록 문서화하기",
+    "language": "ko"
+  },
+  {
+    "text": "표 제목 문서화하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 파일 문서화하기",
+    "language": "ko"
+  },
+  {
+    "text": "기여 지침 문서화하기",
+    "language": "ko"
+  },
+  {
+    "text": "오류 메시지 문서화하기",
+    "language": "ko"
+  },
+  {
+    "text": "프로젝트 설명 검증하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 기록 검증하기",
+    "language": "ko"
+  },
+  {
+    "text": "표 제목 검증하기",
+    "language": "ko"
+  },
+  {
+    "text": "결과 요약 검증하기",
+    "language": "ko"
+  },
+  {
+    "text": "기여 지침 검증하기",
+    "language": "ko"
+  },
+  {
+    "text": "오류 메시지 검증하기",
+    "language": "ko"
+  },
+  {
+    "text": "작업 제목 확인하기",
+    "language": "ko"
+  },
+  {
+    "text": "프로젝트 설명 확인하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 기록 확인하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 파일 확인하기",
+    "language": "ko"
+  },
+  {
+    "text": "결과 요약 확인하기",
+    "language": "ko"
+  },
+  {
+    "text": "기여 지침 확인하기",
+    "language": "ko"
+  },
+  {
+    "text": "작업 제목 개선하기",
+    "language": "ko"
+  },
+  {
+    "text": "프로젝트 설명 개선하기",
+    "language": "ko"
+  },
+  {
+    "text": "표 제목 개선하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 파일 개선하기",
+    "language": "ko"
+  },
+  {
+    "text": "결과 요약 개선하기",
+    "language": "ko"
+  },
+  {
+    "text": "오류 메시지 개선하기",
+    "language": "ko"
+  },
+  {
+    "text": "작업 제목 비교하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 기록 비교하기",
+    "language": "ko"
+  },
+  {
+    "text": "표 제목 비교하기",
+    "language": "ko"
+  },
+  {
+    "text": "예제 파일 비교하기",
+    "language": "ko"
+  },
+  {
+    "text": "기여 지침 비교하기",
+    "language": "ko"
+  },
+  {
+    "text": "오류 메시지 비교하기",
+    "language": "ko"
+  }
+]
