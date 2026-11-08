@@ -1,0 +1,303 @@
+{
+  "now": "2026-11-08T15:30:00+00:00",
+  "cases": [
+    {
+      "text": "Nov 13 12:00 UTC",
+      "expected": "2026-11-13T12:00:00Z"
+    },
+    {
+      "text": " nov 13 12:00 utc ",
+      "expected": "2026-11-13T12:00:00Z"
+    },
+    {
+      "text": "NOV 8 15:30 UTC",
+      "expected": "2026-11-08T15:30:00Z"
+    },
+    {
+      "text": "Nov 8 15:29 UTC",
+      "expected": "2027-11-08T15:29:00Z"
+    },
+    {
+      "text": "Jan 1 00:00 UTC",
+      "expected": "2027-01-01T00:00:00Z"
+    },
+    {
+      "text": "Dec 31 23:59 UTC",
+      "expected": "2026-12-31T23:59:00Z"
+    },
+    {
+      "text": "Feb 28 12:00 UTC",
+      "expected": "2027-02-28T12:00:00Z"
+    },
+    {
+      "text": "2026-11-13T12:00Z",
+      "expected": "2026-11-13T12:00:00Z"
+    },
+    {
+      "text": "2026-11-13t12:00:42z",
+      "expected": "2026-11-13T12:00:42Z"
+    },
+    {
+      "text": "2020-01-01T00:00Z",
+      "expected": "2020-01-01T00:00:00Z"
+    },
+    {
+      "text": "2026-11-13T12:00+02:30",
+      "expected": "2026-11-13T09:30:00Z"
+    },
+    {
+      "text": "2026-11-13T00:15-02:00",
+      "expected": "2026-11-13T02:15:00Z"
+    },
+    {
+      "text": "2026-11-13T00:15+02:00",
+      "expected": "2026-11-12T22:15:00Z"
+    },
+    {
+      "text": "2026-12-31T23:30-01:00",
+      "expected": "2027-01-01T00:30:00Z"
+    },
+    {
+      "text": "2028-02-29T12:00:00Z",
+      "expected": "2028-02-29T12:00:00Z"
+    },
+    {
+      "text": "2026-11-13T12:00+00:00",
+      "expected": "2026-11-13T12:00:00Z"
+    },
+    {
+      "text": "end of week",
+      "expected": "2026-11-08T23:59:59Z"
+    },
+    {
+      "text": " END OF WEEK ",
+      "expected": "2026-11-08T23:59:59Z"
+    },
+    {
+      "text": "in 0 days",
+      "expected": "2026-11-08T15:30:00Z"
+    },
+    {
+      "text": "in 1 days",
+      "expected": "2026-11-09T15:30:00Z"
+    },
+    {
+      "text": "in 2 days",
+      "expected": "2026-11-10T15:30:00Z"
+    },
+    {
+      "text": "in 5 days",
+      "expected": "2026-11-13T15:30:00Z"
+    },
+    {
+      "text": "in 7 days",
+      "expected": "2026-11-15T15:30:00Z"
+    },
+    {
+      "text": "in 23 days",
+      "expected": "2026-12-01T15:30:00Z"
+    },
+    {
+      "text": "in 53 days",
+      "expected": "2026-12-31T15:30:00Z"
+    },
+    {
+      "text": "in 365 days",
+      "expected": "2027-11-08T15:30:00Z"
+    },
+    {
+      "text": "in 366 days",
+      "expected": "2027-11-09T15:30:00Z"
+    },
+    {
+      "text": "in 3650 days",
+      "expected": "2036-11-05T15:30:00Z"
+    },
+    {
+      "text": " IN 005 DAYS ",
+      "expected": "2026-11-13T15:30:00Z"
+    },
+    {
+      "text": "none",
+      "expected": null
+    },
+    {
+      "text": " NONE ",
+      "expected": null
+    },
+    {
+      "text": "",
+      "expected": null
+    },
+    {
+      "text": "   ",
+      "expected": null
+    },
+    {
+      "text": "tomorrow",
+      "expected": null
+    },
+    {
+      "text": "Friday",
+      "expected": null
+    },
+    {
+      "text": "Nov 31 12:00 UTC",
+      "expected": null
+    },
+    {
+      "text": "Feb 29 12:00 UTC",
+      "expected": null
+    },
+    {
+      "text": "Foo 13 12:00 UTC",
+      "expected": null
+    },
+    {
+      "text": "Nov 13 24:00 UTC",
+      "expected": null
+    },
+    {
+      "text": "Nov 13 12:60 UTC",
+      "expected": null
+    },
+    {
+      "text": "November 13 12:00 UTC",
+      "expected": null
+    },
+    {
+      "text": "Nov 13 12:00 PST",
+      "expected": null
+    },
+    {
+      "text": "Nov 13 12:00 UTC extra",
+      "expected": null
+    },
+    {
+      "text": "Nov  13 12:00 UTC",
+      "expected": null
+    },
+    {
+      "text": "2026-02-29T12:00Z",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13T24:00Z",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13T12:00:60Z",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13T12:00",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13 12:00Z",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13T12:00:00.5Z",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13T12:00+24:00",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13T12:00+01:60",
+      "expected": null
+    },
+    {
+      "text": "2026-11-13T12:00Z extra",
+      "expected": null
+    },
+    {
+      "text": "in -1 days",
+      "expected": null
+    },
+    {
+      "text": "in +1 days",
+      "expected": null
+    },
+    {
+      "text": "in 1.5 days",
+      "expected": null
+    },
+    {
+      "text": "in 3651 days",
+      "expected": null
+    },
+    {
+      "text": "in 1 day",
+      "expected": null
+    },
+    {
+      "text": "in  5 days",
+      "expected": null
+    },
+    {
+      "text": "5 days",
+      "expected": null
+    },
+    {
+      "text": "next end of week",
+      "expected": null
+    },
+    {
+      "text": "end  of week",
+      "expected": null
+    },
+    {
+      "text": "Nov 0 12:00 UTC",
+      "expected": null
+    }
+  ],
+  "calendar_probes": [
+    {
+      "now": "2026-11-09T10:20:30Z",
+      "text": "end of week",
+      "expected": "2026-11-15T23:59:59Z"
+    },
+    {
+      "now": "2026-11-15T23:59:59Z",
+      "text": "end of week",
+      "expected": "2026-11-15T23:59:59Z"
+    },
+    {
+      "now": "2026-11-09T00:30:00+02:00",
+      "text": "end of week",
+      "expected": "2026-11-08T23:59:59Z"
+    },
+    {
+      "now": "2028-02-28T12:00:00Z",
+      "text": "Feb 29 12:00 UTC",
+      "expected": "2028-02-29T12:00:00Z"
+    },
+    {
+      "now": "2028-03-01T00:00:00Z",
+      "text": "Feb 29 12:00 UTC",
+      "expected": null
+    },
+    {
+      "now": "2026-11-13T12:00:01Z",
+      "text": "Nov 13 12:00 UTC",
+      "expected": "2027-11-13T12:00:00Z"
+    },
+    {
+      "now": "2026-12-31T23:59:59Z",
+      "text": "in 1 days",
+      "expected": "2027-01-01T23:59:59Z"
+    },
+    {
+      "now": "2026-11-13T14:00:00+02:00",
+      "text": "Nov 13 12:00 UTC",
+      "expected": "2026-11-13T12:00:00Z"
+    }
+  ]
+}
