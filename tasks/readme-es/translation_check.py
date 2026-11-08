@@ -33,6 +33,7 @@ def parse(text):
                 fences.append(''.join(raw))
                 fence, raw = None, []
             continue
+        assert not re.match(r'^(?: {4}|\t)', line), 'Indented code/prose is outside these simple Markdown tasks'
         match = re.match(r' {0,3}(`{3,}|~{3,})([^\r\n]*)', line)
         if match:
             flush()
@@ -53,8 +54,8 @@ def parse(text):
             blocks.append(('heading', heading[2]))
         elif line.lstrip().startswith('|'):
             flush()
-            if not re.fullmatch(r'[\s|:-]+', line):
-                blocks.append(('table', line.strip()))
+            kind = 'table-separator' if re.fullmatch(r'[\s|:-]+', line) else 'table'
+            blocks.append((kind, line.strip()))
         elif re.match(r'\s*(?:[-+*]|\d+[.)])\s+', line):
             flush()
             blocks.append(('list', re.sub(r'^\s*(?:[-+*]|\d+[.)])\s+', '', line).strip()))
@@ -183,6 +184,12 @@ def check_translation(repo, config, baseline):
     for index, ((kind, source), (_, actual)) in enumerate(zip(original_blocks, blocks), 1):
         if kind == 'fence':
             continue
+        if kind == 'table-separator':
+            assert actual == source, f'Block {index}: preserve the table delimiter row'
+            continue
+        if kind == 'table':
+            cells = lambda value: len(re.findall(r'(?<!\\)\|', re.sub(r'`[^`]*`', '', value)))
+            assert cells(actual) == cells(source), f'Block {index}: preserve table column count'
         assert Counter(re.findall(r'`([^`]+)`', actual)) == Counter(re.findall(r'`([^`]+)`', source)), f'Block {index}: preserve inline code exactly'
         assert link_targets(actual) == link_targets(source), f'Block {index}: link target moved/removed/added'
         source_prose, actual_prose = prose(source), prose(actual, source)

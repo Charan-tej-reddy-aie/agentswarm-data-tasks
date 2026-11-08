@@ -15,7 +15,7 @@ assert hashlib.sha256(baseline).hexdigest() == "e7cf4c790d1629a717f4824f2262530a
 sample = (HERE / "fixtures/structure-sample.md").read_text()
 headings, fences, blocks = parse(sample)
 assert headings == [1, 2] and len(fences) == 1
-assert [kind for kind, _ in blocks] == ["heading", "paragraph", "heading", "fence", "table", "table", "list", "quote"]
+assert [kind for kind, _ in blocks] == ["heading", "paragraph", "heading", "fence", "table", "table-separator", "table", "list", "quote"]
 assert link_targets(sample) == {"https://example.invalid/guide"}
 check_translation(repo, {"translation": "README.es.md", "language": "es"}, baseline)
 print("PASS readme-es: exact English baseline, ordered blocks/headings, links and code, language plausibility; meaning requires human/LLM review")
