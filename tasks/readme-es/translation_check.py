@@ -20,6 +20,16 @@ def parse(text):
     paragraph = []
     fence = None
     raw = []
+    table_rows = []
+
+    def flush_table():
+        if not table_rows:
+            return
+        assert len(table_rows) >= 2 and table_rows[1][0] == 'table-separator', 'Table header must be immediately followed by a delimiter row'
+        assert all(kind == ('table-separator' if index == 1 else 'table') for index, (kind, _) in enumerate(table_rows)), 'Invalid table delimiter position'
+        columns = [len(re.findall(r'(?<!\\)\|', re.sub(r'`[^`]*`', '', row))) - 1 for _, row in table_rows]
+        assert len(set(columns)) == 1 and columns[0] > 0, 'Table column counts must match'
+        table_rows.clear()
 
     def flush():
         if paragraph:
@@ -33,7 +43,9 @@ def parse(text):
                 fences.append(''.join(raw))
                 fence, raw = None, []
             continue
-        assert not re.match(r'^(?: {4}|\t)', line), 'Indented code/prose is outside these simple Markdown tasks'
+        if not line.lstrip().startswith('|'):
+            flush_table()
+        assert not line.strip() or not re.match(r'^ {4}', line.expandtabs(4)), 'Indented code/prose is outside these simple Markdown tasks'
         match = re.match(r' {0,3}(`{3,}|~{3,})([^\r\n]*)', line)
         if match:
             flush()
@@ -54,8 +66,11 @@ def parse(text):
             blocks.append(('heading', heading[2]))
         elif line.lstrip().startswith('|'):
             flush()
+            assert line.strip().endswith('|'), 'Preserve the table outer pipes'
             kind = 'table-separator' if re.fullmatch(r'[\s|:-]+', line) else 'table'
-            blocks.append((kind, line.strip()))
+            row = (kind, line.strip())
+            blocks.append(row)
+            table_rows.append(row)
         elif re.match(r'\s*(?:[-+*]|\d+[.)])\s+', line):
             flush()
             blocks.append(('list', re.sub(r'^\s*(?:[-+*]|\d+[.)])\s+', '', line).strip()))
@@ -68,6 +83,7 @@ def parse(text):
         else:
             paragraph.append(line.strip())
     flush()
+    flush_table()
     assert fence is None, 'Unclosed fenced code block'
     return headings, fences, blocks
 

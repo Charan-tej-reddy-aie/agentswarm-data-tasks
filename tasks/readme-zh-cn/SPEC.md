@@ -15,8 +15,8 @@ paragraph/list/table-row order. Preserve every paragraph and caveat; do not add
 or omit blocks. Paragraph line wrapping may change. Keep the project name and
 technical identifiers unchanged. No raw HTML, comments, reference-style links
 or newly added links. No indented code/prose outside fenced blocks; preserve
-table delimiter rows and column counts. Use the same simple Markdown forms as
-the baseline.
+table delimiter rows, outer pipes, column counts and contiguous table rows. Use
+the same simple Markdown forms as the baseline.
 
 The offline Python 3.11+ stdlib check, modeled on agentswarm-examples'
 readme-translation check, verifies structure, exact English, links, code,
