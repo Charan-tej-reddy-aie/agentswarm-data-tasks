@@ -1,0 +1,1321 @@
+[
+  {
+    "input": [
+      [
+        "=café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'=café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "+café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'+café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "-café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'-café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "@café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'@café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " =café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "' =café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " +café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "' +café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " -café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "' -café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " @café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "' @café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\t=café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\t=café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\t+café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\t+café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\t-café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\t-café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\t@café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\t@café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\r=café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\r=café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\r+café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\r+café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\r-café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\r-café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\r@café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\r@café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n=café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n=café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n+café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n+café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n-café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n-café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n@café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n@café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n=café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "' \t\r\n=café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n+café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "' \t\r\n+café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n-café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "' \t\r\n-café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n@café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "' \t\r\n@café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n\t =café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n\t =café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n\t +café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n\t +café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n\t -café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n\t -café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n\t @café 東京🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n\t @café 東京🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "="
+      ]
+    ],
+    "expected": [
+      [
+        "'="
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "+"
+      ]
+    ],
+    "expected": [
+      [
+        "'+"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "-"
+      ]
+    ],
+    "expected": [
+      [
+        "'-"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "@"
+      ]
+    ],
+    "expected": [
+      [
+        "'@"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " ="
+      ]
+    ],
+    "expected": [
+      [
+        "' ="
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " +"
+      ]
+    ],
+    "expected": [
+      [
+        "' +"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " -"
+      ]
+    ],
+    "expected": [
+      [
+        "' -"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " @"
+      ]
+    ],
+    "expected": [
+      [
+        "' @"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\t="
+      ]
+    ],
+    "expected": [
+      [
+        "'\t="
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\t+"
+      ]
+    ],
+    "expected": [
+      [
+        "'\t+"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\t-"
+      ]
+    ],
+    "expected": [
+      [
+        "'\t-"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\t@"
+      ]
+    ],
+    "expected": [
+      [
+        "'\t@"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\r="
+      ]
+    ],
+    "expected": [
+      [
+        "'\r="
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\r+"
+      ]
+    ],
+    "expected": [
+      [
+        "'\r+"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\r-"
+      ]
+    ],
+    "expected": [
+      [
+        "'\r-"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\r@"
+      ]
+    ],
+    "expected": [
+      [
+        "'\r@"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n="
+      ]
+    ],
+    "expected": [
+      [
+        "'\n="
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n+"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n+"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n-"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n-"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n@"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n@"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n="
+      ]
+    ],
+    "expected": [
+      [
+        "' \t\r\n="
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n+"
+      ]
+    ],
+    "expected": [
+      [
+        "' \t\r\n+"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n-"
+      ]
+    ],
+    "expected": [
+      [
+        "' \t\r\n-"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n@"
+      ]
+    ],
+    "expected": [
+      [
+        "' \t\r\n@"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n\t ="
+      ]
+    ],
+    "expected": [
+      [
+        "'\n\t ="
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n\t +"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n\t +"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n\t -"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n\t -"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\n\t @"
+      ]
+    ],
+    "expected": [
+      [
+        "'\n\t @"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        ""
+      ]
+    ],
+    "expected": [
+      [
+        ""
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "plain"
+      ]
+    ],
+    "expected": [
+      [
+        "plain"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "café"
+      ]
+    ],
+    "expected": [
+      [
+        "café"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "東京"
+      ]
+    ],
+    "expected": [
+      [
+        "東京"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "🚀"
+      ]
+    ],
+    "expected": [
+      [
+        "🚀"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "a=b"
+      ]
+    ],
+    "expected": [
+      [
+        "a=b"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "'=1"
+      ]
+    ],
+    "expected": [
+      [
+        "'=1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " '+1"
+      ]
+    ],
+    "expected": [
+      [
+        " '+1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " =1"
+      ]
+    ],
+    "expected": [
+      [
+        " =1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " +1"
+      ]
+    ],
+    "expected": [
+      [
+        " +1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\u000b-1"
+      ]
+    ],
+    "expected": [
+      [
+        "\u000b-1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\f@1"
+      ]
+    ],
+    "expected": [
+      [
+        "\f@1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "​=1"
+      ]
+    ],
+    "expected": [
+      [
+        "​=1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "＝1"
+      ]
+    ],
+    "expected": [
+      [
+        "＝1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "＋1"
+      ]
+    ],
+    "expected": [
+      [
+        "＋1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "−1"
+      ]
+    ],
+    "expected": [
+      [
+        "−1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "＠1"
+      ]
+    ],
+    "expected": [
+      [
+        "＠1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        " \t\r\n"
+      ]
+    ],
+    "expected": [
+      [
+        " \t\r\n"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "0"
+      ]
+    ],
+    "expected": [
+      [
+        "0"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "1e3"
+      ]
+    ],
+    "expected": [
+      [
+        "1e3"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "a\n=1"
+      ]
+    ],
+    "expected": [
+      [
+        "a\n=1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "\u0000=1"
+      ]
+    ],
+    "expected": [
+      [
+        "\u0000=1"
+      ]
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe1",
+        " =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe1",
+        "' =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe2",
+        "  =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe2",
+        "'  =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe3",
+        "   =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe3",
+        "'   =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe4",
+        "    =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe4",
+        "'    =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe5",
+        "     =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe5",
+        "'     =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe6",
+        "      =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe6",
+        "'      =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe7",
+        "       =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe7",
+        "'       =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe8",
+        "        =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe8",
+        "'        =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe9",
+        "         =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe9",
+        "'         =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe10",
+        "          =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe10",
+        "'          =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe11",
+        "           =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe11",
+        "'           =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe12",
+        "            =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe12",
+        "'            =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe13",
+        "             =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe13",
+        "'             =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe14",
+        "              =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe14",
+        "'              =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe15",
+        "               =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe15",
+        "'               =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe16",
+        "                =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe16",
+        "'                =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "safe17",
+        "                 =1"
+      ],
+      []
+    ],
+    "expected": [
+      [
+        "safe17",
+        "'                 =1"
+      ],
+      []
+    ]
+  },
+  {
+    "input": [],
+    "expected": []
+  },
+  {
+    "input": [
+      [],
+      []
+    ],
+    "expected": [
+      [],
+      []
+    ]
+  },
+  {
+    "input": [
+      [
+        "=1"
+      ],
+      [
+        "ok",
+        "-2"
+      ]
+    ],
+    "expected": [
+      [
+        "'=1"
+      ],
+      [
+        "ok",
+        "'-2"
+      ]
+    ]
+  },
+  {
+    "input": null,
+    "error": "TypeError"
+  },
+  {
+    "input": {},
+    "error": "TypeError"
+  },
+  {
+    "input": "x",
+    "error": "TypeError"
+  },
+  {
+    "input": 1,
+    "error": "TypeError"
+  },
+  {
+    "input": true,
+    "error": "TypeError"
+  },
+  {
+    "input": [
+      null
+    ],
+    "error": "TypeError"
+  },
+  {
+    "input": [
+      {}
+    ],
+    "error": "TypeError"
+  },
+  {
+    "input": [
+      [
+        "ok",
+        null
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "input": [
+      [
+        1
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "input": [
+      [
+        true
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "input": [
+      [
+        []
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "input": [
+      [
+        "ok"
+      ],
+      [
+        "fine",
+        {}
+      ]
+    ],
+    "error": "TypeError"
+  }
+]
