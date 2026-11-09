@@ -1,5 +1,6 @@
 package durationformat
 import "testing"
+var _ func(int64) string = FormatSeconds
 func TestSpec(t *testing.T) {
 cases:=[]struct{seconds int64;want string}{
 {-9223372036854775808,"invalid"},
