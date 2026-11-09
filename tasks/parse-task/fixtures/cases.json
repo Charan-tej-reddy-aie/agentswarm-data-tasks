@@ -160,6 +160,14 @@
     }
   },
   {
+    "input": "{\"id\": \"task-1\", \"title\": \"🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀\", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀",
+      "budget": 0
+    }
+  },
+  {
     "input": "{\"id\": \"task-1\", \"title\": \"  x  \", \"budget\": 0}",
     "expected": {
       "id": "task-1",
@@ -241,6 +249,10 @@
   },
   {
     "input": "{\"id\": \"task-1\", \"title\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\", \"budget\": 0}",
     "error": "ValueError"
   },
   {
