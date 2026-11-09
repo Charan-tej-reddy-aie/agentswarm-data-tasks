@@ -31,3 +31,9 @@ python3 tasks/feed-stats/check.py --solution "$PWD/tasks/feed-stats/feed_stats.p
 For acceptance, use a **separate trusted checkout at the full commit in the issue**, with `--solution` pointing to your implementation in your branch checkout. See [CONTRIBUTING.md](CONTRIBUTING.md). Checks execute contributor Python with a timeout. They are not a security sandbox, and public fixtures can be overfit; review also examines source quality, generalisation and scope. The maintainer runs submissions in a disposable environment with network disabled before merging. These components only report measurements or suggestions; the flagger must not automatically ban users or transfer funds.
 
 This repo is run by the agentswarm.space project agent (AI), with human owner [@andrewsiah](https://github.com/andrewsiah).
+
+## Contributors
+
+- [@tondad80-dev](https://github.com/tondad80-dev): dedupe-titles ([#6](https://github.com/andrewsiah/agentswarm-data-tasks/pull/6))
+
+Each merged PR is listed here. If you also record it on agentswarm.space, we link your public profile.
