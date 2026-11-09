@@ -1,0 +1,348 @@
+[
+  {
+    "text": "",
+    "expected": "task"
+  },
+  {
+    "text": "  ",
+    "expected": "task"
+  },
+  {
+    "text": "Hello WORLD",
+    "expected": "hello-world"
+  },
+  {
+    "text": "Café / API",
+    "expected": "cafe-api"
+  },
+  {
+    "text": "Straße",
+    "expected": "strasse"
+  },
+  {
+    "text": "ＡＢＣ １２３",
+    "expected": "abc-123"
+  },
+  {
+    "text": "ﬁle",
+    "expected": "file"
+  },
+  {
+    "text": "İstanbul",
+    "expected": "istanbul"
+  },
+  {
+    "text": "áb",
+    "expected": "ab"
+  },
+  {
+    "text": "東京",
+    "expected": "task"
+  },
+  {
+    "text": "💡 test 🚀",
+    "expected": "test"
+  },
+  {
+    "text": "ø ł đ",
+    "expected": "task"
+  },
+  {
+    "text": "a_b.c/d",
+    "expected": "a-b-c-d"
+  },
+  {
+    "text": "a\u0000b",
+    "expected": "a-b"
+  },
+  {
+    "text": "a‍b",
+    "expected": "a-b"
+  },
+  {
+    "text": "A---B",
+    "expected": "a-b"
+  },
+  {
+    "text": "x\n\ty",
+    "expected": "x-y"
+  },
+  {
+    "text": "K Å",
+    "expected": "k-a"
+  },
+  {
+    "text": "① ²",
+    "expected": "1-2"
+  },
+  {
+    "text": "ﬃ",
+    "expected": "ffi"
+  },
+  {
+    "text": "Æsir",
+    "expected": "sir"
+  },
+  {
+    "text": "Σ σ ς",
+    "expected": "task"
+  },
+  {
+    "text": "a️b",
+    "expected": "ab"
+  },
+  {
+    "text": "aःb",
+    "expected": "ab"
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "a",
+    "max_length": 1
+  },
+  {
+    "text": "",
+    "expected": "t",
+    "max_length": 1
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aa",
+    "max_length": 2
+  },
+  {
+    "text": "",
+    "expected": "ta",
+    "max_length": 2
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaa",
+    "max_length": 3
+  },
+  {
+    "text": "",
+    "expected": "tas",
+    "max_length": 3
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaa",
+    "max_length": 4
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 4
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaa",
+    "max_length": 5
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 5
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaa",
+    "max_length": 6
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 6
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaa",
+    "max_length": 7
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 7
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaaa",
+    "max_length": 8
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 8
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaaaaaaaaaaa",
+    "max_length": 16
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 16
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "max_length": 32
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 32
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "max_length": 63
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 63
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "max_length": 64
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 64
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "max_length": 65
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 65
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "max_length": 127
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 127
+  },
+  {
+    "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "expected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "max_length": 128
+  },
+  {
+    "text": "",
+    "expected": "task",
+    "max_length": 128
+  },
+  {
+    "text": "abc def",
+    "expected": "a",
+    "max_length": 1
+  },
+  {
+    "text": "abc def",
+    "expected": "ab",
+    "max_length": 2
+  },
+  {
+    "text": "abc def",
+    "expected": "abc",
+    "max_length": 3
+  },
+  {
+    "text": "abc def",
+    "expected": "abc",
+    "max_length": 4
+  },
+  {
+    "text": "abc def",
+    "expected": "abc-d",
+    "max_length": 5
+  },
+  {
+    "text": "abc def",
+    "expected": "abc-de",
+    "max_length": 6
+  },
+  {
+    "text": "abc def",
+    "expected": "abc-def",
+    "max_length": 7
+  },
+  {
+    "text": "abc def",
+    "expected": "abc-def",
+    "max_length": 8
+  },
+  {
+    "text": null,
+    "error": "TypeError"
+  },
+  {
+    "text": 42,
+    "error": "TypeError"
+  },
+  {
+    "text": true,
+    "error": "TypeError"
+  },
+  {
+    "text": [],
+    "error": "TypeError"
+  },
+  {
+    "text": {},
+    "error": "TypeError"
+  },
+  {
+    "text": "hi",
+    "max_length": true,
+    "error": "TypeError"
+  },
+  {
+    "text": "hi",
+    "max_length": false,
+    "error": "TypeError"
+  },
+  {
+    "text": "hi",
+    "max_length": "3",
+    "error": "TypeError"
+  },
+  {
+    "text": "hi",
+    "max_length": 1.5,
+    "error": "TypeError"
+  },
+  {
+    "text": "hi",
+    "max_length": null,
+    "error": "TypeError"
+  },
+  {
+    "text": "hi",
+    "max_length": 0,
+    "error": "ValueError"
+  },
+  {
+    "text": "hi",
+    "max_length": -1,
+    "error": "ValueError"
+  },
+  {
+    "text": "hi",
+    "max_length": 129,
+    "error": "ValueError"
+  }
+]
