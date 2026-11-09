@@ -1,0 +1,506 @@
+[
+  {
+    "title": "interpreter + browser",
+    "body": "assertion exercise number 0",
+    "relevant": [
+      "javascript",
+      "python",
+      "testing"
+    ]
+  },
+  {
+    "title": "interpreter + browser",
+    "body": "guide exercise number 1",
+    "relevant": [
+      "documentation",
+      "javascript",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + browser",
+    "body": "localize exercise number 2",
+    "relevant": [
+      "javascript",
+      "python",
+      "translation"
+    ]
+  },
+  {
+    "title": "interpreter + browser",
+    "body": "image exercise number 3",
+    "relevant": [
+      "containers",
+      "javascript",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + browser",
+    "body": "token exercise number 4",
+    "relevant": [
+      "javascript",
+      "nlp",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + browser",
+    "body": "table exercise number 5",
+    "relevant": [
+      "data",
+      "javascript",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + assertion",
+    "body": "guide exercise number 6",
+    "relevant": [
+      "documentation",
+      "python",
+      "testing"
+    ]
+  },
+  {
+    "title": "interpreter + assertion",
+    "body": "localize exercise number 7",
+    "relevant": [
+      "python",
+      "testing",
+      "translation"
+    ]
+  },
+  {
+    "title": "interpreter + assertion",
+    "body": "image exercise number 8",
+    "relevant": [
+      "containers",
+      "python",
+      "testing"
+    ]
+  },
+  {
+    "title": "interpreter + assertion",
+    "body": "token exercise number 9",
+    "relevant": [
+      "nlp",
+      "python",
+      "testing"
+    ]
+  },
+  {
+    "title": "interpreter + assertion",
+    "body": "table exercise number 10",
+    "relevant": [
+      "data",
+      "python",
+      "testing"
+    ]
+  },
+  {
+    "title": "interpreter + guide",
+    "body": "localize exercise number 11",
+    "relevant": [
+      "documentation",
+      "python",
+      "translation"
+    ]
+  },
+  {
+    "title": "interpreter + guide",
+    "body": "image exercise number 12",
+    "relevant": [
+      "containers",
+      "documentation",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + guide",
+    "body": "token exercise number 13",
+    "relevant": [
+      "documentation",
+      "nlp",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + guide",
+    "body": "table exercise number 14",
+    "relevant": [
+      "data",
+      "documentation",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + localize",
+    "body": "image exercise number 15",
+    "relevant": [
+      "containers",
+      "python",
+      "translation"
+    ]
+  },
+  {
+    "title": "interpreter + localize",
+    "body": "token exercise number 16",
+    "relevant": [
+      "nlp",
+      "python",
+      "translation"
+    ]
+  },
+  {
+    "title": "interpreter + localize",
+    "body": "table exercise number 17",
+    "relevant": [
+      "data",
+      "python",
+      "translation"
+    ]
+  },
+  {
+    "title": "interpreter + image",
+    "body": "token exercise number 18",
+    "relevant": [
+      "containers",
+      "nlp",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + image",
+    "body": "table exercise number 19",
+    "relevant": [
+      "containers",
+      "data",
+      "python"
+    ]
+  },
+  {
+    "title": "interpreter + token",
+    "body": "table exercise number 20",
+    "relevant": [
+      "data",
+      "nlp",
+      "python"
+    ]
+  },
+  {
+    "title": "browser + assertion",
+    "body": "guide exercise number 21",
+    "relevant": [
+      "documentation",
+      "javascript",
+      "testing"
+    ]
+  },
+  {
+    "title": "browser + assertion",
+    "body": "localize exercise number 22",
+    "relevant": [
+      "javascript",
+      "testing",
+      "translation"
+    ]
+  },
+  {
+    "title": "browser + assertion",
+    "body": "image exercise number 23",
+    "relevant": [
+      "containers",
+      "javascript",
+      "testing"
+    ]
+  },
+  {
+    "title": "browser + assertion",
+    "body": "token exercise number 24",
+    "relevant": [
+      "javascript",
+      "nlp",
+      "testing"
+    ]
+  },
+  {
+    "title": "browser + assertion",
+    "body": "table exercise number 25",
+    "relevant": [
+      "data",
+      "javascript",
+      "testing"
+    ]
+  },
+  {
+    "title": "browser + guide",
+    "body": "localize exercise number 26",
+    "relevant": [
+      "documentation",
+      "javascript",
+      "translation"
+    ]
+  },
+  {
+    "title": "browser + guide",
+    "body": "image exercise number 27",
+    "relevant": [
+      "containers",
+      "documentation",
+      "javascript"
+    ]
+  },
+  {
+    "title": "browser + guide",
+    "body": "token exercise number 28",
+    "relevant": [
+      "documentation",
+      "javascript",
+      "nlp"
+    ]
+  },
+  {
+    "title": "browser + guide",
+    "body": "table exercise number 29",
+    "relevant": [
+      "data",
+      "documentation",
+      "javascript"
+    ]
+  },
+  {
+    "title": "browser + localize",
+    "body": "image exercise number 30",
+    "relevant": [
+      "containers",
+      "javascript",
+      "translation"
+    ]
+  },
+  {
+    "title": "browser + localize",
+    "body": "token exercise number 31",
+    "relevant": [
+      "javascript",
+      "nlp",
+      "translation"
+    ]
+  },
+  {
+    "title": "browser + localize",
+    "body": "table exercise number 32",
+    "relevant": [
+      "data",
+      "javascript",
+      "translation"
+    ]
+  },
+  {
+    "title": "browser + image",
+    "body": "token exercise number 33",
+    "relevant": [
+      "containers",
+      "javascript",
+      "nlp"
+    ]
+  },
+  {
+    "title": "browser + image",
+    "body": "table exercise number 34",
+    "relevant": [
+      "containers",
+      "data",
+      "javascript"
+    ]
+  },
+  {
+    "title": "browser + token",
+    "body": "table exercise number 35",
+    "relevant": [
+      "data",
+      "javascript",
+      "nlp"
+    ]
+  },
+  {
+    "title": "assertion + guide",
+    "body": "localize exercise number 36",
+    "relevant": [
+      "documentation",
+      "testing",
+      "translation"
+    ]
+  },
+  {
+    "title": "assertion + guide",
+    "body": "image exercise number 37",
+    "relevant": [
+      "containers",
+      "documentation",
+      "testing"
+    ]
+  },
+  {
+    "title": "assertion + guide",
+    "body": "token exercise number 38",
+    "relevant": [
+      "documentation",
+      "nlp",
+      "testing"
+    ]
+  },
+  {
+    "title": "assertion + guide",
+    "body": "table exercise number 39",
+    "relevant": [
+      "data",
+      "documentation",
+      "testing"
+    ]
+  },
+  {
+    "title": "assertion + localize",
+    "body": "image exercise number 40",
+    "relevant": [
+      "containers",
+      "testing",
+      "translation"
+    ]
+  },
+  {
+    "title": "assertion + localize",
+    "body": "token exercise number 41",
+    "relevant": [
+      "nlp",
+      "testing",
+      "translation"
+    ]
+  },
+  {
+    "title": "assertion + localize",
+    "body": "table exercise number 42",
+    "relevant": [
+      "data",
+      "testing",
+      "translation"
+    ]
+  },
+  {
+    "title": "assertion + image",
+    "body": "token exercise number 43",
+    "relevant": [
+      "containers",
+      "nlp",
+      "testing"
+    ]
+  },
+  {
+    "title": "assertion + image",
+    "body": "table exercise number 44",
+    "relevant": [
+      "containers",
+      "data",
+      "testing"
+    ]
+  },
+  {
+    "title": "assertion + token",
+    "body": "table exercise number 45",
+    "relevant": [
+      "data",
+      "nlp",
+      "testing"
+    ]
+  },
+  {
+    "title": "guide + localize",
+    "body": "image exercise number 46",
+    "relevant": [
+      "containers",
+      "documentation",
+      "translation"
+    ]
+  },
+  {
+    "title": "guide + localize",
+    "body": "token exercise number 47",
+    "relevant": [
+      "documentation",
+      "nlp",
+      "translation"
+    ]
+  },
+  {
+    "title": "guide + localize",
+    "body": "table exercise number 48",
+    "relevant": [
+      "data",
+      "documentation",
+      "translation"
+    ]
+  },
+  {
+    "title": "guide + image",
+    "body": "token exercise number 49",
+    "relevant": [
+      "containers",
+      "documentation",
+      "nlp"
+    ]
+  },
+  {
+    "title": "guide + image",
+    "body": "table exercise number 50",
+    "relevant": [
+      "containers",
+      "data",
+      "documentation"
+    ]
+  },
+  {
+    "title": "guide + token",
+    "body": "table exercise number 51",
+    "relevant": [
+      "data",
+      "documentation",
+      "nlp"
+    ]
+  },
+  {
+    "title": "localize + image",
+    "body": "token exercise number 52",
+    "relevant": [
+      "containers",
+      "nlp",
+      "translation"
+    ]
+  },
+  {
+    "title": "localize + image",
+    "body": "table exercise number 53",
+    "relevant": [
+      "containers",
+      "data",
+      "translation"
+    ]
+  },
+  {
+    "title": "localize + token",
+    "body": "table exercise number 54",
+    "relevant": [
+      "data",
+      "nlp",
+      "translation"
+    ]
+  },
+  {
+    "title": "image + token",
+    "body": "table exercise number 55",
+    "relevant": [
+      "containers",
+      "data",
+      "nlp"
+    ]
+  }
+]

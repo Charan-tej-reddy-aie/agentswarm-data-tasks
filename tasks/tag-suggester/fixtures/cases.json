@@ -1,0 +1,220 @@
+[
+  {
+    "name": "empty-vocab",
+    "title": "python",
+    "body": "",
+    "vocab": {},
+    "k": 3,
+    "expected": []
+  },
+  {
+    "name": "empty-query",
+    "title": "",
+    "body": " \n ",
+    "vocab": {
+      "python": []
+    },
+    "k": 3,
+    "expected": []
+  },
+  {
+    "name": "no-match",
+    "title": "unknown",
+    "body": "",
+    "vocab": {
+      "python": [],
+      "docs": []
+    },
+    "k": 3,
+    "expected": []
+  },
+  {
+    "name": "zero-k",
+    "title": "python",
+    "body": "",
+    "vocab": {
+      "python": []
+    },
+    "k": 0,
+    "expected": []
+  },
+  {
+    "name": "punctuation-case",
+    "title": "PYTHON!!!",
+    "body": "",
+    "vocab": {
+      "python": [],
+      "docs": []
+    },
+    "k": 3,
+    "expected": [
+      "python"
+    ]
+  },
+  {
+    "name": "body-and-cap",
+    "title": "",
+    "body": "wheel indentation",
+    "vocab": {
+      "python": [
+        "interpreter bytecode indentation",
+        "wheel interpreter indentation"
+      ],
+      "javascript": [
+        "browser promise module",
+        "browser promise bundler"
+      ],
+      "testing": [
+        "assertion regression fixture",
+        "assertion fixture harness"
+      ],
+      "documentation": [
+        "guide tutorial paragraph",
+        "guide paragraph manual"
+      ],
+      "translation": [
+        "localize bilingual glossary",
+        "localize glossary grammar"
+      ],
+      "containers": [
+        "image docker runtime",
+        "image runtime namespace"
+      ],
+      "nlp": [
+        "token vector language",
+        "token language corpus"
+      ],
+      "data": [
+        "table csv column",
+        "table column dataset"
+      ]
+    },
+    "k": 1,
+    "expected": [
+      "python"
+    ]
+  },
+  {
+    "name": "tie-original-key",
+    "title": "shared",
+    "body": "",
+    "vocab": {
+      "Zed": [
+        "shared"
+      ],
+      "amy": [
+        "shared"
+      ]
+    },
+    "k": 3,
+    "expected": [
+      "Zed",
+      "amy"
+    ]
+  },
+  {
+    "name": "overlap-beats-corpus",
+    "title": "alpha",
+    "body": "",
+    "vocab": {
+      "alpha": [
+        "noise noise noise noise noise noise noise noise noise noise noise noise "
+      ],
+      "beta": [
+        "alpha"
+      ]
+    },
+    "k": 3,
+    "expected": [
+      "alpha",
+      "beta"
+    ]
+  },
+  {
+    "name": "multi-token-tags",
+    "title": "unit test",
+    "body": "",
+    "vocab": {
+      "unit test": [
+        "noise noise"
+      ],
+      "unit": [],
+      "other": []
+    },
+    "k": 8,
+    "expected": [
+      "unit test",
+      "unit"
+    ]
+  },
+  {
+    "name": "idf-and-length",
+    "title": "rare common",
+    "body": "",
+    "vocab": {
+      "a": [
+        "rare"
+      ],
+      "b": [
+        "common common"
+      ],
+      "c": [
+        "common noise noise noise"
+      ],
+      "d": [
+        "common noise noise noise"
+      ]
+    },
+    "k": 3,
+    "expected": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "name": "log-frequency",
+    "title": "red red red blue",
+    "body": "",
+    "vocab": {
+      "a": [
+        "red red red blue"
+      ],
+      "b": [
+        "red red red red red red"
+      ],
+      "c": [
+        "blue"
+      ]
+    },
+    "k": 2,
+    "expected": [
+      "a",
+      "b"
+    ]
+  },
+  {
+    "name": "default-k",
+    "title": "shared",
+    "body": "",
+    "vocab": {
+      "gamma": [
+        "shared"
+      ],
+      "beta": [
+        "shared"
+      ],
+      "delta": [
+        "shared"
+      ],
+      "alpha": [
+        "shared"
+      ]
+    },
+    "expected": [
+      "alpha",
+      "beta",
+      "delta"
+    ]
+  }
+]

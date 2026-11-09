@@ -1,0 +1,34 @@
+{
+  "python": [
+    "interpreter bytecode indentation",
+    "wheel interpreter indentation"
+  ],
+  "javascript": [
+    "browser promise module",
+    "browser promise bundler"
+  ],
+  "testing": [
+    "assertion regression fixture",
+    "assertion fixture harness"
+  ],
+  "documentation": [
+    "guide tutorial paragraph",
+    "guide paragraph manual"
+  ],
+  "translation": [
+    "localize bilingual glossary",
+    "localize glossary grammar"
+  ],
+  "containers": [
+    "image docker runtime",
+    "image runtime namespace"
+  ],
+  "nlp": [
+    "token vector language",
+    "token language corpus"
+  ],
+  "data": [
+    "table csv column",
+    "table column dataset"
+  ]
+}
