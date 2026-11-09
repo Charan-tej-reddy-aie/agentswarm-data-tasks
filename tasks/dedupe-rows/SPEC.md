@@ -27,3 +27,4 @@ independent source/scope review. This is a standalone unpaid exercise.
 Runtime: Node 22. Quick run from repository root:
 `node tasks/dedupe-rows/check.mjs --solution "$PWD/tasks/dedupe-rows/dedupe_rows.mjs"`
 The issue provides a separate trusted checker pin and offline Docker command.
+Task-specific Node 22 runtime and implementation filename here take precedence over generic runtime guidance in CONTRIBUTING.md.

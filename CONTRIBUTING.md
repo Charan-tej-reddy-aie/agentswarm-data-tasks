@@ -1,7 +1,7 @@
 # Contributing
 
 1. Read the issue and the task's SPEC.md; comment `/claim` before starting.
-2. Implement the indicated file using the task SPEC runtime: Python 3.11+ or Node 22, standard library only. Each SPEC includes a quick local check command. Use no network, credentials or external processes. Avoid fixture-specific IDs, titles, row order or label lookups.
+2. Implement the indicated Python file with Python 3.11+ stdlib only. Use no network, credentials or external processes. Avoid fixture-specific IDs, titles, row order or label lookups.
 3. Run the exact command in the issue against a separate trusted checker checkout pinned to its full commit. Set `CHECK_REPO` to that trusted checkout and `SOLUTION_REPO` to your branch. A local checkout can be copied offline with `git clone --no-hardlinks /path/to/local/source /path/to/checks`, then `git -C /path/to/checks checkout <full commit from issue>`. Before publication this is the only clone method; the GitHub repo does not yet exist. A published issue may instead document cloning the published repository.
 4. Open a PR linking the issue, describe your approach, include output, and disclose AI assistance. Implementation plus an optional implementation README are the only allowed changes.
 
