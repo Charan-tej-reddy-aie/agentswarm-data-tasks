@@ -1,0 +1,562 @@
+[
+  {
+    "input": "",
+    "expected": ""
+  },
+  {
+    "input": "task-1._~",
+    "expected": "task-1._~"
+  },
+  {
+    "input": "a/b c",
+    "expected": "a%2Fb%20c"
+  },
+  {
+    "input": "%2F",
+    "expected": "%252F"
+  },
+  {
+    "input": "é",
+    "expected": "%C3%A9"
+  },
+  {
+    "input": "\u0000",
+    "expected": "%00"
+  },
+  {
+    "input": "+?",
+    "expected": "%2B%3F"
+  },
+  {
+    "input": "🚀",
+    "expected": "%F0%9F%9A%80"
+  },
+  {
+    "input": "é",
+    "expected": "e%CC%81"
+  },
+  {
+    "input": "a\r\n",
+    "expected": "a%0D%0A"
+  },
+  {
+    "input": " / ",
+    "expected": "%20%2F%20"
+  },
+  {
+    "input": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~",
+    "expected": "%00%01%02%03%04%05%06%07%08%09%0A%0B%0C%0D%0E%0F%10%11%12%13%14%15%16%17%18%19%1A%1B%1C%1D%1E%1F%20%21%22%23%24%25%26%27%28%29%2A%2B%2C-.%2F0123456789%3A%3B%3C%3D%3E%3F%40ABCDEFGHIJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklmnopqrstuvwxyz%7B%7C%7D~%7F"
+  },
+  {
+    "input": "\u0000",
+    "expected": "%00"
+  },
+  {
+    "input": "\u0001",
+    "expected": "%01"
+  },
+  {
+    "input": "\u0002",
+    "expected": "%02"
+  },
+  {
+    "input": "\u0003",
+    "expected": "%03"
+  },
+  {
+    "input": "\u0004",
+    "expected": "%04"
+  },
+  {
+    "input": "\u0005",
+    "expected": "%05"
+  },
+  {
+    "input": "\u0006",
+    "expected": "%06"
+  },
+  {
+    "input": "\u0007",
+    "expected": "%07"
+  },
+  {
+    "input": "\b",
+    "expected": "%08"
+  },
+  {
+    "input": "\t",
+    "expected": "%09"
+  },
+  {
+    "input": "\n",
+    "expected": "%0A"
+  },
+  {
+    "input": "\u000b",
+    "expected": "%0B"
+  },
+  {
+    "input": "\f",
+    "expected": "%0C"
+  },
+  {
+    "input": "\r",
+    "expected": "%0D"
+  },
+  {
+    "input": "\u000e",
+    "expected": "%0E"
+  },
+  {
+    "input": "\u000f",
+    "expected": "%0F"
+  },
+  {
+    "input": "\u0010",
+    "expected": "%10"
+  },
+  {
+    "input": "\u0011",
+    "expected": "%11"
+  },
+  {
+    "input": "\u0012",
+    "expected": "%12"
+  },
+  {
+    "input": "\u0013",
+    "expected": "%13"
+  },
+  {
+    "input": "\u0014",
+    "expected": "%14"
+  },
+  {
+    "input": "\u0015",
+    "expected": "%15"
+  },
+  {
+    "input": "\u0016",
+    "expected": "%16"
+  },
+  {
+    "input": "\u0017",
+    "expected": "%17"
+  },
+  {
+    "input": "\u0018",
+    "expected": "%18"
+  },
+  {
+    "input": "\u0019",
+    "expected": "%19"
+  },
+  {
+    "input": "\u001a",
+    "expected": "%1A"
+  },
+  {
+    "input": "\u001b",
+    "expected": "%1B"
+  },
+  {
+    "input": "\u001c",
+    "expected": "%1C"
+  },
+  {
+    "input": "\u001d",
+    "expected": "%1D"
+  },
+  {
+    "input": "\u001e",
+    "expected": "%1E"
+  },
+  {
+    "input": "\u001f",
+    "expected": "%1F"
+  },
+  {
+    "input": " ",
+    "expected": "%20"
+  },
+  {
+    "input": "!",
+    "expected": "%21"
+  },
+  {
+    "input": "\"",
+    "expected": "%22"
+  },
+  {
+    "input": "#",
+    "expected": "%23"
+  },
+  {
+    "input": "$",
+    "expected": "%24"
+  },
+  {
+    "input": "%",
+    "expected": "%25"
+  },
+  {
+    "input": "&",
+    "expected": "%26"
+  },
+  {
+    "input": "'",
+    "expected": "%27"
+  },
+  {
+    "input": "(",
+    "expected": "%28"
+  },
+  {
+    "input": ")",
+    "expected": "%29"
+  },
+  {
+    "input": "*",
+    "expected": "%2A"
+  },
+  {
+    "input": "+",
+    "expected": "%2B"
+  },
+  {
+    "input": ",",
+    "expected": "%2C"
+  },
+  {
+    "input": "-",
+    "expected": "-"
+  },
+  {
+    "input": ".",
+    "expected": "."
+  },
+  {
+    "input": "/",
+    "expected": "%2F"
+  },
+  {
+    "input": "0",
+    "expected": "0"
+  },
+  {
+    "input": "1",
+    "expected": "1"
+  },
+  {
+    "input": "2",
+    "expected": "2"
+  },
+  {
+    "input": "3",
+    "expected": "3"
+  },
+  {
+    "input": "4",
+    "expected": "4"
+  },
+  {
+    "input": "5",
+    "expected": "5"
+  },
+  {
+    "input": "6",
+    "expected": "6"
+  },
+  {
+    "input": "7",
+    "expected": "7"
+  },
+  {
+    "input": "8",
+    "expected": "8"
+  },
+  {
+    "input": "9",
+    "expected": "9"
+  },
+  {
+    "input": ":",
+    "expected": "%3A"
+  },
+  {
+    "input": ";",
+    "expected": "%3B"
+  },
+  {
+    "input": "<",
+    "expected": "%3C"
+  },
+  {
+    "input": "=",
+    "expected": "%3D"
+  },
+  {
+    "input": ">",
+    "expected": "%3E"
+  },
+  {
+    "input": "?",
+    "expected": "%3F"
+  },
+  {
+    "input": "@",
+    "expected": "%40"
+  },
+  {
+    "input": "A",
+    "expected": "A"
+  },
+  {
+    "input": "B",
+    "expected": "B"
+  },
+  {
+    "input": "C",
+    "expected": "C"
+  },
+  {
+    "input": "D",
+    "expected": "D"
+  },
+  {
+    "input": "E",
+    "expected": "E"
+  },
+  {
+    "input": "F",
+    "expected": "F"
+  },
+  {
+    "input": "G",
+    "expected": "G"
+  },
+  {
+    "input": "H",
+    "expected": "H"
+  },
+  {
+    "input": "I",
+    "expected": "I"
+  },
+  {
+    "input": "J",
+    "expected": "J"
+  },
+  {
+    "input": "K",
+    "expected": "K"
+  },
+  {
+    "input": "L",
+    "expected": "L"
+  },
+  {
+    "input": "M",
+    "expected": "M"
+  },
+  {
+    "input": "N",
+    "expected": "N"
+  },
+  {
+    "input": "O",
+    "expected": "O"
+  },
+  {
+    "input": "P",
+    "expected": "P"
+  },
+  {
+    "input": "Q",
+    "expected": "Q"
+  },
+  {
+    "input": "R",
+    "expected": "R"
+  },
+  {
+    "input": "S",
+    "expected": "S"
+  },
+  {
+    "input": "T",
+    "expected": "T"
+  },
+  {
+    "input": "U",
+    "expected": "U"
+  },
+  {
+    "input": "V",
+    "expected": "V"
+  },
+  {
+    "input": "W",
+    "expected": "W"
+  },
+  {
+    "input": "X",
+    "expected": "X"
+  },
+  {
+    "input": "Y",
+    "expected": "Y"
+  },
+  {
+    "input": "Z",
+    "expected": "Z"
+  },
+  {
+    "input": "[",
+    "expected": "%5B"
+  },
+  {
+    "input": "\\",
+    "expected": "%5C"
+  },
+  {
+    "input": "]",
+    "expected": "%5D"
+  },
+  {
+    "input": "^",
+    "expected": "%5E"
+  },
+  {
+    "input": "_",
+    "expected": "_"
+  },
+  {
+    "input": "`",
+    "expected": "%60"
+  },
+  {
+    "input": "a",
+    "expected": "a"
+  },
+  {
+    "input": "b",
+    "expected": "b"
+  },
+  {
+    "input": "c",
+    "expected": "c"
+  },
+  {
+    "input": "d",
+    "expected": "d"
+  },
+  {
+    "input": "e",
+    "expected": "e"
+  },
+  {
+    "input": "f",
+    "expected": "f"
+  },
+  {
+    "input": "g",
+    "expected": "g"
+  },
+  {
+    "input": "h",
+    "expected": "h"
+  },
+  {
+    "input": "i",
+    "expected": "i"
+  },
+  {
+    "input": "j",
+    "expected": "j"
+  },
+  {
+    "input": "k",
+    "expected": "k"
+  },
+  {
+    "input": "l",
+    "expected": "l"
+  },
+  {
+    "input": "m",
+    "expected": "m"
+  },
+  {
+    "input": "n",
+    "expected": "n"
+  },
+  {
+    "input": "o",
+    "expected": "o"
+  },
+  {
+    "input": "p",
+    "expected": "p"
+  },
+  {
+    "input": "q",
+    "expected": "q"
+  },
+  {
+    "input": "r",
+    "expected": "r"
+  },
+  {
+    "input": "s",
+    "expected": "s"
+  },
+  {
+    "input": "t",
+    "expected": "t"
+  },
+  {
+    "input": "u",
+    "expected": "u"
+  },
+  {
+    "input": "v",
+    "expected": "v"
+  },
+  {
+    "input": "w",
+    "expected": "w"
+  },
+  {
+    "input": "x",
+    "expected": "x"
+  },
+  {
+    "input": "y",
+    "expected": "y"
+  },
+  {
+    "input": "z",
+    "expected": "z"
+  },
+  {
+    "input": "{",
+    "expected": "%7B"
+  },
+  {
+    "input": "|",
+    "expected": "%7C"
+  },
+  {
+    "input": "}",
+    "expected": "%7D"
+  },
+  {
+    "input": "~",
+    "expected": "~"
+  },
+  {
+    "input": "",
+    "expected": "%7F"
+  }
+]
