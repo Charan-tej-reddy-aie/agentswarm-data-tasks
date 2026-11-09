@@ -1,0 +1,388 @@
+[
+  {
+    "args": [
+      []
+    ],
+    "expected": []
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "b",
+          "bid": 4,
+          "score": 90
+        },
+        {
+          "id": "a",
+          "bid": 4,
+          "score": 90
+        },
+        {
+          "id": "z",
+          "bid": 9,
+          "score": 100
+        }
+      ]
+    ],
+    "expected": [
+      "z",
+      "a",
+      "b"
+    ]
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "expected": [
+      "x"
+    ]
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "b",
+          "bid": 1,
+          "score": 50
+        },
+        {
+          "id": "a",
+          "bid": 2,
+          "score": 50
+        }
+      ]
+    ],
+    "expected": [
+      "b",
+      "a"
+    ]
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "A",
+          "bid": 0,
+          "score": 0
+        },
+        {
+          "id": "a",
+          "bid": 0,
+          "score": 0
+        },
+        {
+          "id": "",
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "expected": [
+      "",
+      "A",
+      "a"
+    ]
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": 0
+        },
+        {
+          "id": "x",
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "expected": [
+      "x",
+      "x"
+    ]
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "é",
+          "bid": 0,
+          "score": 0
+        },
+        {
+          "id": "é",
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "expected": [
+      "é",
+      "é"
+    ]
+  },
+  {
+    "args": [
+      null
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      true
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      1
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      {}
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      "x"
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {}
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": 0,
+          "extra": 1
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": null,
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": true,
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": 1,
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": [],
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": {},
+          "bid": 0,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": true,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 1.0,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": "1",
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": null,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": true
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": 1.0
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": "1"
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": null
+        }
+      ]
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": -1,
+          "score": 0
+        }
+      ]
+    ],
+    "error": "ValueError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": -1
+        }
+      ]
+    ],
+    "error": "ValueError"
+  },
+  {
+    "args": [
+      [
+        {
+          "id": "x",
+          "bid": 0,
+          "score": 101
+        }
+      ]
+    ],
+    "error": "ValueError"
+  }
+]
