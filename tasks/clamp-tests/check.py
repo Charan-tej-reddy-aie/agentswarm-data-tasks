@@ -11,7 +11,7 @@ for name,implementation in variants:
         proc=subprocess.run([sys.executable,'-I','-B',str(here/'runner.py'),str(root)],capture_output=True,text=True,timeout=5)
         matches=re.findall(r'^TEST_RESULT (.+)$',proc.stdout,re.M)
         assert proc.returncode==0 and len(matches)==1,('invalid test run',name,proc.stdout,proc.stderr)
-        result=json.loads(matches[0]);assert result['run']>=8 and not any(result[x] for x in ['skipped','expected','unexpected']),('invalid suite',name,result)
+        result=json.loads(matches[0]);assert result['run']>=8 and not any(result[x] for x in ['skipped','expected','unexpected','system_exits']),('invalid suite',name,result)
         failed=result['failures']+result['errors']>0
         if name=='reference': assert not failed,('tests must pass reference',proc.stderr)
         else: kills+=failed
