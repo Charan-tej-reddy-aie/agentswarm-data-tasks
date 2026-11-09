@@ -216,5 +216,90 @@
       "beta",
       "delta"
     ]
+  },
+  {
+    "name": "tag-tokens-in-corpus",
+    "title": "alpha",
+    "body": "",
+    "vocab": {
+      "alpha a": [
+        "noise"
+      ],
+      "alpha z": []
+    },
+    "k": 3,
+    "expected": [
+      "alpha z",
+      "alpha a"
+    ]
+  },
+  {
+    "name": "all-example-documents",
+    "title": "needle",
+    "body": "",
+    "vocab": {
+      "a": [
+        "unrelated",
+        "needle"
+      ],
+      "b": [
+        "unrelated"
+      ]
+    },
+    "k": 3,
+    "expected": [
+      "a"
+    ]
+  },
+  {
+    "name": "query-log-frequency",
+    "title": "blue blue blue red",
+    "body": "",
+    "vocab": {
+      "a": [
+        "red"
+      ],
+      "b": [
+        "blue"
+      ]
+    },
+    "k": 3,
+    "expected": [
+      "b",
+      "a"
+    ]
+  },
+  {
+    "name": "ascii-digit-tokens",
+    "title": "42",
+    "body": "",
+    "vocab": {
+      "a": [
+        "42"
+      ],
+      "b": [
+        "blue"
+      ]
+    },
+    "k": 3,
+    "expected": [
+      "a"
+    ]
+  },
+  {
+    "name": "distinct-overlap",
+    "title": "alpha alpha alpha beta gamma",
+    "body": "",
+    "vocab": {
+      "alpha": [
+        "noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise noise "
+      ],
+      "beta gamma": []
+    },
+    "k": 3,
+    "expected": [
+      "beta gamma",
+      "alpha"
+    ]
   }
 ]
