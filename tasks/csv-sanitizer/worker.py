@@ -16,7 +16,9 @@ for row in json.load(sys.stdin):
     except (TypeError,ValueError) as error:
         results.append({'error':type(error).__name__})
 # Non-JSON type and alias probes.
-for value in [(('x',),), [('x',)], [[b'x']], [[False]]]:
+class ListSubclass(list): pass
+class StrSubclass(str): pass
+for value in [(('x',),), [('x',)], [[b'x']], [[False]], ListSubclass(), [ListSubclass()], [[StrSubclass('text')]]]:
     try: helper(value)
     except TypeError: pass
     else: raise AssertionError('non-list or non-string accepted')
