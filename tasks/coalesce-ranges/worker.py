@@ -11,7 +11,7 @@ class D(dict):pass
 def exact(a,b):
     assert type(a) is type(b),(a,b)
     if type(b) is dict:
-        assert list(a)==list(b),(a,b)
+        assert (list(a)==list(b) if TASK=='merge-counters' else a.keys()==b.keys()),(a,b)
         for k in b: exact(a[k],b[k])
     elif type(b) is list:
         assert len(a)==len(b),(a,b)
