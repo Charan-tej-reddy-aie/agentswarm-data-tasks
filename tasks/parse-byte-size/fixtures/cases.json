@@ -1,0 +1,44 @@
+[
+  {
+    "args": [
+      "0B"
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      "1B"
+    ],
+    "expected": 1
+  },
+  {
+    "args": [
+      "2KiB"
+    ],
+    "expected": 2048
+  },
+  {
+    "args": [
+      "3MiB"
+    ],
+    "expected": 3145728
+  },
+  {
+    "args": [
+      "1GiB"
+    ],
+    "expected": 1073741824
+  },
+  {
+    "args": [
+      "0GiB"
+    ],
+    "expected": 0
+  },
+  {
+    "args": [
+      "999999999GiB"
+    ],
+    "expected": 1073741822926258176
+  }
+]
