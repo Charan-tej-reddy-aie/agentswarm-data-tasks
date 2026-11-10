@@ -38,7 +38,7 @@ def check(args,row):
             exact(f(*args),row['expected'])
     assert args==before,('input mutation',args,before)
 for row in rows:check(row['args'],row)
-bad=[[x,'a'] for x in [S('a'),None,True,1]]+[['a',x] for x in [S('a'),None,True]]; bounds=[['x'*1001,'x'],['x','x'*65]]
+bad=[[x,'a'] for x in [S('a'),None,True,1]]+[['a',x] for x in [S('a'),None,True]]; bounds=[['x'*1001,'x'],['x','x'*65]]; bad += [['x'*1001,True],[S('x'*1001),'x']]; bounds += [['é'*1001,'x'],['x','é'*65]]
 for args in bad:check(args,{'error':'TypeError'})
 for args in bounds:check(args,{'error':'ValueError'})
 print('PASS '+TASK+': '+str(len(rows))+' examples plus exact types, bounds and isolation probes')

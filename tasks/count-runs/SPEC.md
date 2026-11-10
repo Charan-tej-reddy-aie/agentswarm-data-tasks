@@ -13,6 +13,7 @@ Examples (argument lists -> result):
 - `[['A', 'a', 'a']]` -> `2`
 - `[['', ' ', '']]` -> `3`
 - `[['é', 'é']]` -> `2`
+- `[['éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé', 'éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé']]` -> `1`
 
 Only edit `count_runs.py` and optional IMPLEMENTATION.md in this task directory.
 Run `python3 tasks/count-runs/check.py --solution "$PWD/tasks/count-runs/count_runs.py"`. The issue supplies the trusted checker pin. A pass remains CHECK_PASS_UNVERIFIED until independent source/scope review.
