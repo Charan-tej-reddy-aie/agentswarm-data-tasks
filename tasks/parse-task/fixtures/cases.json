@@ -1,0 +1,414 @@
+[
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": " Ship it ",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"budget\": 12, \"title\": \"é\", \"id\": \"a\"}",
+    "expected": {
+      "budget": 12,
+      "title": "é",
+      "id": "a"
+    }
+  },
+  {
+    "input": "{\"id\": \"a\", \"title\": \"x\", \"budget\": 0}",
+    "expected": {
+      "id": "a",
+      "title": "x",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"a\", \"title\": \"x\", \"budget\": 1}",
+    "expected": {
+      "id": "a",
+      "title": "x",
+      "budget": 1
+    }
+  },
+  {
+    "input": "{\"id\": \"a\", \"title\": \"x\", \"budget\": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000}",
+    "expected": {
+      "id": "a",
+      "title": "x",
+      "budget": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    }
+  },
+  {
+    "input": "{\"id\": \"z9-\", \"title\": \"x\", \"budget\": 0}",
+    "expected": {
+      "id": "z9-",
+      "title": "x",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"z9-\", \"title\": \"x\", \"budget\": 1}",
+    "expected": {
+      "id": "z9-",
+      "title": "x",
+      "budget": 1
+    }
+  },
+  {
+    "input": "{\"id\": \"z9-\", \"title\": \"x\", \"budget\": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000}",
+    "expected": {
+      "id": "z9-",
+      "title": "x",
+      "budget": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    }
+  },
+  {
+    "input": "{\"id\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\", \"title\": \"x\", \"budget\": 0}",
+    "expected": {
+      "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "title": "x",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\", \"title\": \"x\", \"budget\": 1}",
+    "expected": {
+      "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "title": "x",
+      "budget": 1
+    }
+  },
+  {
+    "input": "{\"id\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\", \"title\": \"x\", \"budget\": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000}",
+    "expected": {
+      "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "title": "x",
+      "budget": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    }
+  },
+  {
+    "input": "{\"id\": \"a-0\", \"title\": \"x\", \"budget\": 0}",
+    "expected": {
+      "id": "a-0",
+      "title": "x",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"a-0\", \"title\": \"x\", \"budget\": 1}",
+    "expected": {
+      "id": "a-0",
+      "title": "x",
+      "budget": 1
+    }
+  },
+  {
+    "input": "{\"id\": \"a-0\", \"title\": \"x\", \"budget\": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000}",
+    "expected": {
+      "id": "a-0",
+      "title": "x",
+      "budget": 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    }
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"é\", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "é",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"é\", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "é",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"🚀\", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "🚀",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"\\u0000\", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "\u0000",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"\\n x\\t\", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "\n x\t",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀\", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"  x  \", \"budget\": 0}",
+    "expected": {
+      "id": "task-1",
+      "title": "  x  ",
+      "budget": 0
+    }
+  },
+  {
+    "input": "{\"id\": \"\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"A\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"1a\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"a_\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"a/b\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"a b\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"\\u00e9\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"a\\n\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\", \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": 1, \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": true, \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": null, \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": [], \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": {}, \"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"\", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"\\t\\n\", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"\\u2003\", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \"\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\\ud83d\\ude80\", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": 1, \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": true, \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": null, \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": [], \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": {}, \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": -1}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": true}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": false}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": 1.0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": 0.0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": \"0\"}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": null}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": []}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": {}}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"title\": \" Ship it \", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"budget\": 0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \"}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": 0, \"extra\": 1}",
+    "error": "ValueError"
+  },
+  {
+    "input": "[]",
+    "error": "ValueError"
+  },
+  {
+    "input": "null",
+    "error": "ValueError"
+  },
+  {
+    "input": "true",
+    "error": "ValueError"
+  },
+  {
+    "input": "1",
+    "error": "ValueError"
+  },
+  {
+    "input": "\"x\"",
+    "error": "ValueError"
+  },
+  {
+    "input": "{",
+    "error": "ValueError"
+  },
+  {
+    "input": "",
+    "error": "ValueError"
+  },
+  {
+    "input": "{} {}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\":\"a\",\"id\":\"b\",\"title\":\"x\",\"budget\":0}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\":\"a\",\"title\":\"x\",\"budget\":NaN}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\":\"a\",\"title\":\"x\",\"budget\":Infinity}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\":\"a\",\"title\":\"x\",\"budget\":-Infinity}",
+    "error": "ValueError"
+  },
+  {
+    "input": "{\"id\":\"a\",\"title\":\"x\",\"budget\":{\"x\":1,\"x\":2}}",
+    "error": "ValueError"
+  },
+  {
+    "input": " \n{\"id\": \"task-1\", \"title\": \" Ship it \", \"budget\": 0}\t ",
+    "expected": {
+      "id": "task-1",
+      "title": " Ship it ",
+      "budget": 0
+    }
+  },
+  {
+    "input": null,
+    "error": "TypeError"
+  },
+  {
+    "input": true,
+    "error": "TypeError"
+  },
+  {
+    "input": 1,
+    "error": "TypeError"
+  },
+  {
+    "input": 1.0,
+    "error": "TypeError"
+  },
+  {
+    "input": [],
+    "error": "TypeError"
+  },
+  {
+    "input": {},
+    "error": "TypeError"
+  }
+]
