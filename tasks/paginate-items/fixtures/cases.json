@@ -1,0 +1,125 @@
+[
+  {
+    "args": [
+      [],
+      0,
+      2
+    ],
+    "expected": {
+      "items": [],
+      "next_offset": null
+    }
+  },
+  {
+    "args": [
+      [
+        "a",
+        "b",
+        "c"
+      ],
+      0,
+      2
+    ],
+    "expected": {
+      "items": [
+        "a",
+        "b"
+      ],
+      "next_offset": 2
+    }
+  },
+  {
+    "args": [
+      [
+        "a",
+        "b",
+        "c"
+      ],
+      2,
+      2
+    ],
+    "expected": {
+      "items": [
+        "c"
+      ],
+      "next_offset": null
+    }
+  },
+  {
+    "args": [
+      [
+        "a",
+        "b"
+      ],
+      0,
+      2
+    ],
+    "expected": {
+      "items": [
+        "a",
+        "b"
+      ],
+      "next_offset": null
+    }
+  },
+  {
+    "args": [
+      [
+        "a"
+      ],
+      1,
+      1
+    ],
+    "expected": {
+      "items": [],
+      "next_offset": null
+    }
+  },
+  {
+    "args": [
+      [
+        "a"
+      ],
+      1000000000,
+      1
+    ],
+    "expected": {
+      "items": [],
+      "next_offset": null
+    }
+  },
+  {
+    "args": [
+      [
+        "z",
+        "a"
+      ],
+      0,
+      2
+    ],
+    "expected": {
+      "items": [
+        "z",
+        "a"
+      ],
+      "next_offset": null
+    }
+  },
+  {
+    "args": [
+      [
+        "a",
+        "a",
+        "b"
+      ],
+      1,
+      1
+    ],
+    "expected": {
+      "items": [
+        "a"
+      ],
+      "next_offset": 2
+    }
+  }
+]
