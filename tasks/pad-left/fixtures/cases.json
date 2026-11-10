@@ -1,0 +1,98 @@
+[
+  {
+    "args": [
+      "7",
+      3,
+      "0"
+    ],
+    "expected": "007"
+  },
+  {
+    "args": [
+      "abc",
+      2,
+      "*"
+    ],
+    "expected": "abc"
+  },
+  {
+    "args": [
+      "",
+      2,
+      "-"
+    ],
+    "expected": "--"
+  },
+  {
+    "args": [
+      "ab",
+      2,
+      "x"
+    ],
+    "expected": "ab"
+  },
+  {
+    "args": [
+      "\u00e9",
+      3,
+      "\u00b7"
+    ],
+    "expected": "\u00b7\u00b7\u00e9"
+  },
+  {
+    "args": [
+      "",
+      0,
+      " "
+    ],
+    "expected": ""
+  },
+  {
+    "args": [
+      " a",
+      4,
+      "."
+    ],
+    "expected": ".. a"
+  },
+  {
+    "args": [
+      "x",
+      5,
+      "\u00e9"
+    ],
+    "expected": "\u00e9\u00e9\u00e9\u00e9x"
+  },
+  {
+    "args": [
+      "a",
+      1,
+      ""
+    ],
+    "error": "ValueError"
+  },
+  {
+    "args": [
+      "a",
+      true,
+      "0"
+    ],
+    "error": "TypeError"
+  },
+  {
+    "args": [
+      "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+      128,
+      "0"
+    ],
+    "expected": "0000000000000000000000000000000000000000000000000000000000000000zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+  },
+  {
+    "args": [
+      "\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9",
+      0,
+      "x"
+    ],
+    "expected": "\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9"
+  }
+]
