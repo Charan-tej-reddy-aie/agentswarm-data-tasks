@@ -1,0 +1,53 @@
+import copy, importlib.util, json, sys
+from pathlib import Path
+TASK=Path(__file__).parent.name
+spec=importlib.util.spec_from_file_location('candidate',sys.argv[1]);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+f=getattr(m,TASK.replace('-','_'))
+rows=json.loads(Path(__file__).with_name('fixtures').joinpath('cases.json').read_text())
+class I(int):pass
+class S(str):pass
+class L(list):pass
+class D(dict):pass
+def exact(a,b):
+    assert type(a) is type(b),(a,b)
+    if type(b) is dict:
+        assert (list(a)==list(b) if TASK=='merge-counters' else a.keys()==b.keys()),(a,b)
+        for k in b: exact(a[k],b[k])
+    elif type(b) is list:
+        assert len(a)==len(b),(a,b)
+        for x,y in zip(a,b):exact(x,y)
+    else:assert a==b,(a,b)
+def check(args,row):
+    before=copy.deepcopy(args)
+    if 'error' in row:
+        try:f(*args)
+        except Exception as e:assert type(e) is {'TypeError':TypeError,'ValueError':ValueError}[row['error']],repr(e)
+        else:raise AssertionError(('missing exception',args,row))
+    else:
+        a=f(*args);b=f(*args);exact(a,row['expected']);exact(b,row['expected'])
+        if type(a) in (list,dict):
+            assert a is not b and all(a is not x for x in args)
+            if TASK=='coalesce-ranges':
+                assert all(x is not y for x in a for y in args[0])
+                if a:a[0].append(999)
+            elif TASK=='paginate-items':
+                assert a['items'] is not args[0] and a['items'] is not b['items']
+                a['items'].append('changed')
+            elif type(a) is list:a.append(999)
+            else:a['changed']=999
+            exact(f(*args),row['expected'])
+    assert args==before,('input mutation',args,before)
+for row in rows:check(row['args'],row)
+bad=[[x,0] for x in [L(),L([1]),(),(1,),None,'ab',{},{1}]]+[[[x],0] for x in [True,False,I(1),1.0,'1',None,[1]]]+[[[1],x] for x in [True,False,I(1),1.0,'1',None,[1]]]+[[[1,x],1] for x in [True,I(2)]]+[[[0]*1001+[True],0],[[10**9+1,True],0],[[10**10],True],[[1,2],1.5]]; bounds=[[[10**9+1],0],[[-10**9-1],0],[[1]*1001,1],[[0]*1001,5],[[1],10**9+1],[[1],-10**9-1],[[],10**10]]
+def fresh_inputs():
+    return [([1],2),([1,2,3],9),([],0),([4,4],4),([1,1,2],1),([5,6,5],5),([0],0),([3,2,1],3)]
+for items_in,value in fresh_inputs():
+    snap=list(items_in);want=[x for x in snap if x!=value];out=f(items_in,value);again=f(items_in,value)
+    assert out is not items_in and again is not items_in and out is not again,('returned the input list',snap)
+    assert items_in==snap,('the call changed the input',snap,items_in)
+    out.append(99);out[:0]=[98]
+    assert items_in==snap,('mutating the result changed the input',snap,items_in)
+    exact(again,want);exact(f(items_in,value),want)
+for args in bad:check(args,{'error':'TypeError'})
+for args in bounds:check(args,{'error':'ValueError'})
+print('PASS '+TASK+': '+str(len(rows))+' examples plus exact types, bounds and isolation probes')
