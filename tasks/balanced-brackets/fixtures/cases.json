@@ -1,0 +1,98 @@
+[
+  {
+    "args": [
+      ""
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "()"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "()[]{}"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "{[()]}"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "([)]"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ")("
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "(("
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "())"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "(]"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "]"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "a(b)c"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "<>"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "<"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "f(x[1], {y: 2})"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "\ud83d\ude80(\ud83d\ude80)"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "\uff08"
+    ],
+    "expected": true
+  }
+]
