@@ -1,0 +1,107 @@
+[
+  {
+    "args": [
+      "ace",
+      "abcde"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "aec",
+      "abcde"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "",
+      ""
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "",
+      "abc"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "abc",
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "abc",
+      "abc"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "abcd",
+      "abc"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "aa",
+      "a"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "aa",
+      "bab"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "aa",
+      "aba"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "A",
+      "a"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "a c",
+      "abc d c"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "\ud83d\ude80",
+      "x\ud83d\ude80y"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "ba",
+      "ab"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\u00e9",
+      "e\u0301"
+    ],
+    "expected": false
+  }
+]
