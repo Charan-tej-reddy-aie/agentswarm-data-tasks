@@ -1,0 +1,98 @@
+[
+  {
+    "args": [
+      ""
+    ],
+    "expected": ""
+  },
+  {
+    "args": [
+      "abc"
+    ],
+    "expected": "abc"
+  },
+  {
+    "args": [
+      "0123456789"
+    ],
+    "expected": "**********"
+  },
+  {
+    "args": [
+      "card 4111-1111"
+    ],
+    "expected": "card ****-****"
+  },
+  {
+    "args": [
+      "x9y"
+    ],
+    "expected": "x*y"
+  },
+  {
+    "args": [
+      "\u0660\u0661 12"
+    ],
+    "expected": "\u0660\u0661 **"
+  },
+  {
+    "args": [
+      "99 bottles"
+    ],
+    "expected": "** bottles"
+  },
+  {
+    "args": [
+      "v1.2.3"
+    ],
+    "expected": "v*.*.*"
+  },
+  {
+    "args": [
+      "\uff11\uff12"
+    ],
+    "expected": "\uff11\uff12"
+  },
+  {
+    "args": [
+      "a\ud83d\ude800"
+    ],
+    "expected": "a\ud83d\ude80*"
+  },
+  {
+    "args": [
+      "00"
+    ],
+    "expected": "**"
+  },
+  {
+    "args": [
+      "  7  "
+    ],
+    "expected": "  *  "
+  },
+  {
+    "args": [
+      "-1"
+    ],
+    "expected": "-*"
+  },
+  {
+    "args": [
+      "1e9"
+    ],
+    "expected": "*e*"
+  },
+  {
+    "args": [
+      "line1\nline2"
+    ],
+    "expected": "line*\nline*"
+  },
+  {
+    "args": [
+      "007"
+    ],
+    "expected": "***"
+  }
+]

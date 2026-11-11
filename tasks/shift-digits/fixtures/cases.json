@@ -1,0 +1,98 @@
+[
+  {
+    "args": [
+      ""
+    ],
+    "expected": ""
+  },
+  {
+    "args": [
+      "abc"
+    ],
+    "expected": "abc"
+  },
+  {
+    "args": [
+      "0123456789"
+    ],
+    "expected": "1234567890"
+  },
+  {
+    "args": [
+      "9"
+    ],
+    "expected": "0"
+  },
+  {
+    "args": [
+      "99"
+    ],
+    "expected": "00"
+  },
+  {
+    "args": [
+      "v1.9.9"
+    ],
+    "expected": "v2.0.0"
+  },
+  {
+    "args": [
+      "2026-11-12"
+    ],
+    "expected": "3137-22-23"
+  },
+  {
+    "args": [
+      "\u0660\u0661 12"
+    ],
+    "expected": "\u0660\u0661 23"
+  },
+  {
+    "args": [
+      "\uff11"
+    ],
+    "expected": "\uff11"
+  },
+  {
+    "args": [
+      "a\ud83d\ude809"
+    ],
+    "expected": "a\ud83d\ude800"
+  },
+  {
+    "args": [
+      "  0  "
+    ],
+    "expected": "  1  "
+  },
+  {
+    "args": [
+      "-9"
+    ],
+    "expected": "-0"
+  },
+  {
+    "args": [
+      "1e9"
+    ],
+    "expected": "2e0"
+  },
+  {
+    "args": [
+      "x8y"
+    ],
+    "expected": "x9y"
+  },
+  {
+    "args": [
+      "09:59"
+    ],
+    "expected": "10:60"
+  },
+  {
+    "args": [
+      "2"
+    ],
+    "expected": "3"
+  }
+]
