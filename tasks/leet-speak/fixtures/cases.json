@@ -1,0 +1,98 @@
+[
+  {
+    "args": [
+      ""
+    ],
+    "expected": ""
+  },
+  {
+    "args": [
+      "leet speak"
+    ],
+    "expected": "l33t 5p34k"
+  },
+  {
+    "args": [
+      "aeios"
+    ],
+    "expected": "43105"
+  },
+  {
+    "args": [
+      "AEIOS"
+    ],
+    "expected": "AEIOS"
+  },
+  {
+    "args": [
+      "hello"
+    ],
+    "expected": "h3ll0"
+  },
+  {
+    "args": [
+      "password"
+    ],
+    "expected": "p455w0rd"
+  },
+  {
+    "args": [
+      "Mississippi"
+    ],
+    "expected": "M1551551pp1"
+  },
+  {
+    "args": [
+      "sos"
+    ],
+    "expected": "505"
+  },
+  {
+    "args": [
+      "tea time"
+    ],
+    "expected": "t34 t1m3"
+  },
+  {
+    "args": [
+      "4a3e"
+    ],
+    "expected": "4433"
+  },
+  {
+    "args": [
+      "caf\u00e9"
+    ],
+    "expected": "c4f\u00e9"
+  },
+  {
+    "args": [
+      "x\ud83d\ude80s"
+    ],
+    "expected": "x\ud83d\ude805"
+  },
+  {
+    "args": [
+      "ice"
+    ],
+    "expected": "1c3"
+  },
+  {
+    "args": [
+      "bold"
+    ],
+    "expected": "b0ld"
+  },
+  {
+    "args": [
+      "  so  "
+    ],
+    "expected": "  50  "
+  },
+  {
+    "args": [
+      "Oasis"
+    ],
+    "expected": "O4515"
+  }
+]

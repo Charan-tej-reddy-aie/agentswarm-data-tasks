@@ -1,0 +1,98 @@
+[
+  {
+    "args": [
+      ""
+    ],
+    "expected": ""
+  },
+  {
+    "args": [
+      "hello world"
+    ],
+    "expected": "hll wrld"
+  },
+  {
+    "args": [
+      "AEIOU aeiou"
+    ],
+    "expected": " "
+  },
+  {
+    "args": [
+      "rhythm"
+    ],
+    "expected": "rhythm"
+  },
+  {
+    "args": [
+      "Yay"
+    ],
+    "expected": "Yy"
+  },
+  {
+    "args": [
+      "queue"
+    ],
+    "expected": "q"
+  },
+  {
+    "args": [
+      "Programming"
+    ],
+    "expected": "Prgrmmng"
+  },
+  {
+    "args": [
+      "caf\u00e9"
+    ],
+    "expected": "cf\u00e9"
+  },
+  {
+    "args": [
+      "\u00c0\u00e9\u00ee\u00f5\u00fc"
+    ],
+    "expected": "\u00c0\u00e9\u00ee\u00f5\u00fc"
+  },
+  {
+    "args": [
+      "x\ud83d\ude80a"
+    ],
+    "expected": "x\ud83d\ude80"
+  },
+  {
+    "args": [
+      "a1e2i3o4u5"
+    ],
+    "expected": "12345"
+  },
+  {
+    "args": [
+      "  spaced  "
+    ],
+    "expected": "  spcd  "
+  },
+  {
+    "args": [
+      "a\nb\tc"
+    ],
+    "expected": "\nb\tc"
+  },
+  {
+    "args": [
+      "A-E_I"
+    ],
+    "expected": "-_"
+  },
+  {
+    "args": [
+      "bcdfg"
+    ],
+    "expected": "bcdfg"
+  },
+  {
+    "args": [
+      "Ooo!"
+    ],
+    "expected": "!"
+  }
+]
