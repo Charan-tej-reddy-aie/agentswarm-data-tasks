@@ -1,0 +1,107 @@
+[
+  {
+    "args": [
+      "waterbottle",
+      "erbottlewat"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "",
+      ""
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "a",
+      "a"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "ab",
+      "ba"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "abc",
+      "acb"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "abc",
+      "abcd"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "aa",
+      "a"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "Abc",
+      "bcA"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "abc",
+      "BCA"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "a b",
+      "ba "
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "abc",
+      "cba"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\ud83d\ude80a",
+      "a\ud83d\ude80"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "aab",
+      "aba"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "aab",
+      "abb"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " ab",
+      "ab"
+    ],
+    "expected": false
+  }
+]
