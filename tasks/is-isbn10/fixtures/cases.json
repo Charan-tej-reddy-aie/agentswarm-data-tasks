@@ -1,0 +1,122 @@
+[
+  {
+    "args": [
+      "0306406152"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "0306406153"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "080442957X"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "080442957x"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0-306-40615-2"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      ""
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "123456789X"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "X123456789"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "X00000000X"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0000000000"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "03064061520"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "030640615"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0306406152 "
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      " 0306406152"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "\uff10306406152"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "1234567890"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0471958697"
+    ],
+    "expected": true
+  },
+  {
+    "args": [
+      "047195869X"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "0306406152000"
+    ],
+    "expected": false
+  },
+  {
+    "args": [
+      "030640615200X"
+    ],
+    "expected": false
+  }
+]

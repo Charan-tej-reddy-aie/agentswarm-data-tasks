@@ -1,0 +1,122 @@
+[
+  {
+    "args": [
+      ""
+    ],
+    "expected": ""
+  },
+  {
+    "args": [
+      "user_id"
+    ],
+    "expected": "userId"
+  },
+  {
+    "args": [
+      "get_http_response"
+    ],
+    "expected": "getHttpResponse"
+  },
+  {
+    "args": [
+      "_private"
+    ],
+    "expected": "Private"
+  },
+  {
+    "args": [
+      "private_"
+    ],
+    "expected": "private"
+  },
+  {
+    "args": [
+      "a__b"
+    ],
+    "expected": "aB"
+  },
+  {
+    "args": [
+      "__"
+    ],
+    "expected": ""
+  },
+  {
+    "args": [
+      "a_1"
+    ],
+    "expected": "a1"
+  },
+  {
+    "args": [
+      "a_\u00e9"
+    ],
+    "expected": "a\u00e9"
+  },
+  {
+    "args": [
+      "a_B"
+    ],
+    "expected": "aB"
+  },
+  {
+    "args": [
+      "HTTP_server"
+    ],
+    "expected": "HTTPServer"
+  },
+  {
+    "args": [
+      "already"
+    ],
+    "expected": "already"
+  },
+  {
+    "args": [
+      "snake_case_words"
+    ],
+    "expected": "snakeCaseWords"
+  },
+  {
+    "args": [
+      "x_y_z"
+    ],
+    "expected": "xYZ"
+  },
+  {
+    "args": [
+      "\ud83d\ude80_rocket"
+    ],
+    "expected": "\ud83d\ude80Rocket"
+  },
+  {
+    "args": [
+      "a-b_c"
+    ],
+    "expected": "a-bC"
+  },
+  {
+    "args": [
+      " a_b "
+    ],
+    "expected": " aB "
+  },
+  {
+    "args": [
+      "a_\u00df"
+    ],
+    "expected": "a\u00df"
+  },
+  {
+    "args": [
+      "_"
+    ],
+    "expected": ""
+  },
+  {
+    "args": [
+      "a_\u0131"
+    ],
+    "expected": "a\u0131"
+  }
+]
